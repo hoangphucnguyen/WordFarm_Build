@@ -1,5 +1,5 @@
 ﻿//#if FACEBOOK_SDK
-using System.Runtime.Remoting.Messaging;
+//using System.Runtime.Remoting.Messaging;
 
 namespace iSDK.Messenger.Scripts
 {
