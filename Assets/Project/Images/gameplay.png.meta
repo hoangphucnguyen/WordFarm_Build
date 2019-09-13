@@ -1,0 +1,3074 @@
+fileFormatVersion: 2
+guid: 4dfcc0b6501234269a4847aee3c27642
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gameplay-multiplayer-mode-edited
+    21300002: _0000_log
+    21300004: _0001_right-log
+    21300006: _0002_left-log
+    21300008: _0003_menu
+    21300010: _0004_iaps
+    21300012: _0005_buttons
+    21300014: _0006_char-box
+    21300016: _0007_board
+    21300018: _0008_kalinka-right
+    21300020: _0009_kalinka-left
+    21300022: _0010_kalinka-left-down
+    21300024: _0011_pig
+    21300026: _0012_leika
+    21300028: _0013_chiken
+    21300030: _0014_sunflower
+    21300032: _0015_sunflowers
+    21300034: _0016_mushrooms
+    21300036: _0017_lopata
+    21300038: _0018_vila
+    21300040: _0019_flowers-left
+    21300042: _0020_clovers-left
+    21300044: _0021_clovers-right
+    21300046: _0022_flowers-right
+    21300048: close-button
+    21300050: avatar-frame
+    21300052: icon-messages
+    21300054: rounded-green-button
+    21300056: rounded-orange-button
+    21300058: light-fantastic
+    21300060: rounded-blue-button
+    21300062: rounded-green-button-big
+    21300064: _0001_right-log
+    21300066: _0002_left-log
+    21300068: _0003_menu
+    21300070: _0004_iaps
+    21300072: _0005_buttons
+    21300074: _0006_char-box
+    21300076: _0007_board
+    21300078: _0008_kalinka-right
+    21300080: _0009_kalinka-left
+    21300082: _0010_kalinka-left-down
+    21300084: _0011_pig
+    21300086: _0012_leika
+    21300088: _0013_chiken
+    21300090: _0014_sunflower
+    21300092: _0015_sunflowers
+    21300094: _0016_mushrooms
+    21300096: _0017_lopata
+    21300098: _0018_vila
+    21300100: _0019_flowers-left
+    21300102: _0020_clovers-left
+    21300104: _0021_clovers-right
+    21300106: _0022_flowers-right
+    21300108: close-button
+    21300110: avatar-frame
+    21300112: icon-messages
+    21300114: rounded-green-button
+    21300116: rounded-orange-button
+    21300118: light-fantastic
+    21300120: gameplay_0
+    21300122: _0004_iaps
+    21300124: _0005_buttons
+    21300126: _0006_char-box
+    21300128: _0007_board
+    21300130: _0008_kalinka-right
+    21300132: _0009_kalinka-left
+    21300134: _0010_kalinka-left-down
+    21300136: _0011_pig
+    21300138: _0012_leika
+    21300140: _0013_chiken
+    21300142: _0014_sunflower
+    21300144: _0015_sunflowers
+    21300146: _0016_mushrooms
+    21300148: _0017_lopata
+    21300150: _0018_vila
+    21300152: _0019_flowers-left
+    21300154: _0020_clovers-left
+    21300156: _0021_clovers-right
+    21300158: _0022_flowers-right
+    21300160: close-button
+    21300162: avatar-frame
+    21300164: icon-messages
+    21300166: rounded-green-button
+    21300168: rounded-orange-button
+    21300170: light-fantastic
+    21300172: gameplay_0
+    21300174: _0001_right-log
+    21300176: _0002_left-log
+    21300178: _0003_menu
+    21300180: _0004_iaps
+    21300182: _0005_buttons
+    21300184: _0006_char-box
+    21300186: _0007_board
+    21300188: _0008_kalinka-right
+    21300190: _0009_kalinka-left
+    21300192: _0010_kalinka-left-down
+    21300194: _0011_pig
+    21300196: _0012_leika
+    21300198: _0013_chiken
+    21300200: _0014_sunflower
+    21300202: _0015_sunflowers
+    21300204: _0016_mushrooms
+    21300206: _0017_lopata
+    21300208: _0018_vila
+    21300210: _0019_flowers-left
+    21300212: _0020_clovers-left
+    21300214: _0021_clovers-right
+    21300216: _0022_flowers-right
+    21300218: close-button
+    21300220: avatar-frame
+    21300222: icon-messages
+    21300224: rounded-green-button
+    21300226: rounded-orange-button
+    21300228: light-fantastic
+    21300230: gameplay_0
+    21300232: _0002_left-log
+    21300234: _0003_menu
+    21300236: _0004_iaps
+    21300238: _0005_buttons
+    21300240: _0006_char-box
+    21300242: _0007_board
+    21300244: _0008_kalinka-right
+    21300246: _0009_kalinka-left
+    21300248: _0010_kalinka-left-down
+    21300250: _0011_pig
+    21300252: _0012_leika
+    21300254: _0013_chiken
+    21300256: _0014_sunflower
+    21300258: _0015_sunflowers
+    21300260: _0016_mushrooms
+    21300262: _0017_lopata
+    21300264: _0018_vila
+    21300266: _0019_flowers-left
+    21300268: _0020_clovers-left
+    21300270: _0021_clovers-right
+    21300272: _0022_flowers-right
+    21300274: close-button
+    21300276: avatar-frame
+    21300278: icon-messages
+    21300280: rounded-green-button
+    21300282: rounded-orange-button
+    21300284: light-fantastic
+    21300286: gameplay_0
+    21300288: _0001_right-log
+    21300290: _0002_left-log
+    21300292: _0003_menu
+    21300294: _0004_iaps
+    21300296: _0005_buttons
+    21300298: _0006_char-box
+    21300300: _0007_board
+    21300302: _0008_kalinka-right
+    21300304: _0009_kalinka-left
+    21300306: _0010_kalinka-left-down
+    21300308: _0011_pig
+    21300310: _0012_leika
+    21300312: _0013_chiken
+    21300314: _0014_sunflower
+    21300316: _0015_sunflowers
+    21300318: _0016_mushrooms
+    21300320: _0017_lopata
+    21300322: _0018_vila
+    21300324: _0019_flowers-left
+    21300326: _0020_clovers-left
+    21300328: _0021_clovers-right
+    21300330: _0022_flowers-right
+    21300332: close-button
+    21300334: avatar-frame
+    21300336: icon-messages
+    21300338: rounded-green-button
+    21300340: rounded-orange-button
+    21300342: light-fantastic
+    21300344: gameplay_0
+    21300346: images-_0000_green-rounded-button
+    21300348: images-_0000_lights-fantastic
+    21300350: images-_0000_log
+    21300352: images-_0001_orange-rounded-button
+    21300354: images-_0001_right-log
+    21300356: images-_0001_rounded-green-button-right-arrow
+    21300358: images-_0002_icon-message
+    21300360: images-_0002_left-log
+    21300362: images-_0002_rounded-blue-button-facebook
+    21300364: images-_0003_avatar-frame
+    21300366: images-_0003_menu
+    21300368: images-_0003_rounded-blue-button-big
+    21300370: images-_0004_iaps
+    21300372: images-_0004_rounded-green-button-green
+    21300374: images-_0005_buttons
+    21300376: images-_0005_close-button
+    21300378: images-_0006_char-box
+    21300380: images-_0007_board
+    21300382: images-_0008_kalinka-right
+    21300384: images-_0009_kalinka-left
+    21300386: images-_0010_kalinka-left-down
+    21300388: images-_0011_pig
+    21300390: images-_0012_leika
+    21300392: images-_0013_chiken
+    21300394: images-_0014_sunflower
+    21300396: images-_0015_sunflowers
+    21300398: images-_0016_mushrooms
+    21300400: images-_0017_lopata
+    21300402: images-_0018_vila
+    21300404: images-_0019_flowers-left
+    21300406: images-_0020_clovers-left
+    21300408: images-_0021_clovers-right
+    21300410: images-_0022_flowers-right
+    21300412: _0000_green-rounded-button
+    21300414: _0000_lights-fantastic
+    21300416: _0001_orange-rounded-button
+    21300418: _0001_rounded-green-button-right-arrow
+    21300420: _0002_icon-message
+    21300422: _0002_rounded-blue-button-facebook
+    21300424: _0003_avatar-frame
+    21300426: _0003_rounded-blue-button-big
+    21300428: _0004_rounded-green-button-green
+    21300430: _0005_close-button
+    21300432: _0000_rounded-orange-arrow-right
+    21300434: _0000s_0000_FARM
+    21300436: _0000s_0001_logo-right-leaf-bottom
+    21300438: _0000s_0002_logo-right-leaf-top
+    21300440: _0000s_0003_logo-right-stem
+    21300442: _0000s_0004_logo-right-leaf-right
+    21300444: _0000s_0005_logo-left-leaf-bottom
+    21300446: _0000s_0006_logo-left-leaf-top
+    21300448: _0000s_0007_logo-left-stem
+    21300450: _0000s_0008_logo-left-leaf-left
+    21300452: _0001_settings-button
+    21300454: _0002_shop-button
+    21300456: _0003_cow
+    21300458: _0004_rabbit
+    21300460: _0000_rounded-green2-arrow-right
+    21300462: _0004_icon-coin
+    21300464: _0004_plus-green-button
+    21300466: _0000_back-button
+    21300468: _0001_wood-sign
+    21300470: _0002_next-button
+    21300472: _0003_green-circle-button-play
+    21300474: _0004_wood-circle-abc
+    21300476: _0005_level-item-bg
+    21300478: _0000_blue-rounded-button-small
+    21300480: _0001_orange-rounded-button-small
+    21300482: _0002_star-icon
+    21300484: _0003_gold-sign
+    21300486: _0005_amazon-logo
+    21300488: _0006_bronze-sign
+    21300490: _0007_silver-sign
+    21300492: _0008_green-sign
+    21300494: _0009_line-separator
+    21300496: _0003_white-rounded-box
+    21300498: _0004_amazon-logo
+    21300500: _0005_gold-sign
+    21300502: _0006_silver-sign
+    21300504: _0007_bronze-sign
+    21300506: _0000_green-rounded-button-arrow-right
+    21300508: _0001_avatar-frame
+    21300510: _0003_leaderboard-icon
+    21300512: _0004_search-bg
+    21300514: _0002_leaderboard-icon
+    21300516: _0003_search-bg
+    21300518: _0004_siluets-mask
+    21300520: _0006_siluets
+    21300522: _0000_toggle-on
+    21300524: _0001_toggle-off
+    21300526: _0002_toggle-bg
+    21300528: _0003_icon-sound
+    21300530: _0004_icon-music
+    21300532: _0005_icon-notification
+    21300534: _0006_icon-question
+    21300536: _0007_icon-profile
+    21300538: _0008_rounded-blue-button-biggest
+    21300540: _0011_pig-shadow
+    21300542: _0011_pig_dqsno-oko
+    21300544: _0011_pig_dqsno-uho
+    21300546: _0011_pig_lqvo-oko
+    21300548: _0011_pig_lqvo-uho
+    21300550: _0011_pig_opashka
+    21300552: _0011_pig-nos
+    21300554: _0006_icon-search
+    21300556: _0007_pointer-left
+    21300558: _0008_pointer-right
+    21300560: _0009_sign-right-leafs
+    21300562: _0010_sign-left-leafs
+    21300564: _0000_bag-of-coins
+    21300566: _0001_chest-with-coins
+    21300568: _0002_pot-of-coins
+    21300570: _0003_sack-of-coins
+    21300572: _0004_bunch-of-coins
+    21300574: _0005_no-ads
+    21300576: _0006_green-rounded-button-small
+    21300578: _0000_icon-check
+    21300580: _0001_blue-box
+    21300582: _0002_green-button-claim
+    21300584: _0002_rounded-blue-button-messenger
+    21300586: _0000_icon-facebook-button
+    21300588: _0000_icon-password
+    21300590: _0001_icon-message
+    21300592: _0001_icon-messenger
+    21300594: _0000_rounded-green3
+    21300596: _0000_rounded-green4
+    21300598: smoke
+    21300600: _0000_next_button
+    21300602: _0001_wood-sign-2
+    21300604: icon-tick
+    21300606: _0002_icon-username
+    21300608: flower
+    21300610: _0000_ladybird-left-wing
+    21300612: _0001_ladybird-right-wing
+    21300614: _0002_ladybird-body
+    21300616: _0003_ladybird-shadow
+    21300618: _0012_leika_drop1
+    21300620: _0012_leika_drop2
+    21300622: _0012_leika_drop3
+    21300624: _0012_leika_water
+    21300626: _0000_chicken-wing
+    21300628: _0001_chicken-tune
+    21300630: _0002_chicken-eye
+    21300632: _0003_chicken-comb
+    21300634: _0004_chicken-beak
+    21300636: _0005_chicken-body
+    21300638: _0006_chicken-shadow
+    21300640: _0015_sunflowers_1
+    21300642: _0015_sunflowers_2
+    21300644: _0015_sunflowers_3
+    21300646: _0015_sunflowers_4
+    21300648: _0015_sunflowers_5
+    21300650: _0015_sunflowers_6
+    21300652: _0012_leika_water_drops
+    21300654: round-rect-popup
+    21300656: _0003_rounded-orange-button-big
+    21300658: refresh
+    21300660: _0005_buttons_blue
+    21300662: _0000_icon-facebook-left-button
+    21300664: _0000_next-button
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: -1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _0000_back-button
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 303
+        width: 136
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_bag-of-coins
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 796
+        width: 183
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_blue-rounded-button-small
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 680
+        width: 258
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_chicken-wing
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 837
+        width: 65
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_green-rounded-button-arrow-right
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1
+        width: 215
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_green-rounded-button
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 827
+        width: 150
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_icon-check
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 403
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_icon-facebook-button
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 338
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_icon-facebook-left-button
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 26
+        width: 87
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_icon-password
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 125
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_ladybird-left-wing
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 315
+        width: 91
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_lights-fantastic
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 713
+        width: 361
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_log
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1665
+        width: 254
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_next-button
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 159
+        width: 136
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_rounded-green2-arrow-right
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1746
+        width: 497
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_rounded-green3
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1076
+        width: 418
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_rounded-green4
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1127
+        width: 300
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_rounded-orange-arrow-right
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1592
+        width: 497
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000_toggle-on
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 649
+        width: 129
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000s_0001_logo-right-leaf-bottom
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 181
+        width: 161
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000s_0002_logo-right-leaf-top
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 494
+        width: 95
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000s_0003_logo-right-stem
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1327
+        width: 154
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000s_0004_logo-right-leaf-right
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 107
+        width: 89
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000s_0005_logo-left-leaf-bottom
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 932
+        width: 162
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000s_0006_logo-left-leaf-top
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 160
+        width: 95
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000s_0007_logo-left-stem
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 189
+        width: 154
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0000s_0008_logo-left-leaf-left
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 54
+        width: 89
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_avatar-frame
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 265
+        width: 157
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_blue-box
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 5
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_chest-with-coins
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 860
+        width: 238
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_chicken-tune
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 224
+        width: 89
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_icon-message
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 1021
+        width: 92
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_icon-messenger
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1167
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_ladybird-right-wing
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 1665
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_orange-rounded-button-small
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1225
+        width: 258
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_orange-rounded-button
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 731
+        width: 150
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_rounded-green-button-right-arrow
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 1926
+        width: 379
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_settings-button
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 296
+        width: 149
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_toggle-off
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 405
+        width: 129
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_wood-sign-2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 655
+        width: 248
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0001_wood-sign
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1208
+        width: 477
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_chicken-eye
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 713
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_green-button-claim
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1511
+        width: 752
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_icon-message
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1260
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_icon-username
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 138
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_ladybird-body
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 447
+        width: 115
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_leaderboard-icon
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 212
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_left-log
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1554
+        width: 395
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_next-button
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 655
+        width: 148
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_pot-of-coins
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 107
+        width: 198
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_shop-button
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 16
+        width: 149
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_star-icon
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 228
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0002_toggle-bg
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1339
+        width: 276
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_avatar-frame
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 22
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_chicken-comb
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1087
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_green-circle-button-play
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 477
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_icon-sound
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 93
+        width: 87
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_ladybird-shadow
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 487
+        width: 112
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_menu
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1424
+        width: 482
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_rounded-blue-button-big
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1366
+        width: 339
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_rounded-orange-button-big
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1259
+        width: 339
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_sack-of-coins
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 6
+        width: 184
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_search-bg
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1402
+        width: 688
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0003_white-rounded-box
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1653
+        width: 792
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0004_amazon-logo
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 390
+        width: 137
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0004_bunch-of-coins
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 814
+        width: 135
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0004_chicken-beak
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1612
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0004_icon-coin
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 614
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0004_icon-music
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1089
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0004_plus-green-button
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 559
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0004_rounded-green-button-green
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1674
+        width: 405
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0004_siluets-mask
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 17
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0004_wood-circle-abc
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 2
+        width: 168
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0005_buttons
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 418
+        width: 233
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0005_buttons_blue
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 442
+        width: 233
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0005_chicken-body
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 413
+        width: 176
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0005_close-button
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 612
+        width: 132
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0005_gold-sign
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 338
+        width: 115
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0005_icon-notification
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 303
+        width: 76
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0005_level-item-bg
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1877
+        width: 881
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0005_no-ads
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1126
+        width: 128
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0006_char-box
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 440
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0006_chicken-shadow
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 433
+        width: 195
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0006_green-rounded-button-small
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 754
+        width: 215
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0006_icon-question
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1788
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0006_icon-search
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1448
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0006_silver-sign
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 199
+        width: 115
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0007_bronze-sign
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 910
+        width: 115
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0007_icon-profile
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 56
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0007_pointer-left
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 640
+        width: 188
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0008_green-sign
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1086
+        width: 115
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0008_kalinka-right
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1366
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0008_pointer-right
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 598
+        width: 188
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0008_rounded-blue-button-biggest
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1906
+        width: 780
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0009_kalinka-left
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 762
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0009_line-separator
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1900
+        width: 747
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0009_sign-right-leafs
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 1804
+        width: 370
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0010_kalinka-left-down
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 10
+        width: 66
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0010_sign-left-leafs
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1433
+        width: 366
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0011_pig-nos
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 17
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0011_pig
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 794
+        width: 255
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0011_pig_dqsno-oko
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0011_pig_dqsno-uho
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 70
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0011_pig_lqvo-oko
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 828
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0011_pig_lqvo-uho
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 164
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0011_pig_opashka
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1500
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0012_leika
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1103
+        width: 255
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0012_leika_drop1
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 695
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0012_leika_drop2
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1424
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0012_leika_drop3
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1526
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0012_leika_water
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1015
+        width: 116
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0012_leika_water_drops
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1048
+        width: 245
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0014_sunflower
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 828
+        width: 163
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0015_sunflowers_1
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 928
+        width: 185
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0015_sunflowers_2
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 181
+        width: 210
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0015_sunflowers_3
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 281
+        width: 233
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0015_sunflowers_4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 4
+        width: 277
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0015_sunflowers_5
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 190
+        width: 231
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0015_sunflowers_6
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 710
+        width: 92
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0016_mushrooms
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 813
+        width: 271
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0017_lopata
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 436
+        width: 178
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0018_vila
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 1476
+        width: 342
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0019_flowers-left
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 106
+        width: 220
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0020_clovers-left
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 240
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0021_clovers-right
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 390
+        width: 305
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _0022_flowers-right
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 736
+        width: 201
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 944
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon-tick
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1151
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: refresh
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 239
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round-rect-popup
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 1255
+        width: 195
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1069
+        width: 429
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

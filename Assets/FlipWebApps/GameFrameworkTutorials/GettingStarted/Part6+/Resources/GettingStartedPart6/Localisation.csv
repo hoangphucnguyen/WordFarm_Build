@@ -1,0 +1,31 @@
+KEY,English,Norwegian
+Settings.Button,Press Me,Trykk Meg
+W1.Name,Forest,Skog
+W1.Desc,-,-
+W2.Name,Ice,Is
+W2.Desc,-,-
+W3.Name,Fantasy,Fantasi
+W3.Desc,-,-
+L1.Name,W1 - L1,Bane 1
+L1.Desc,-,-
+L2.Name,W1 - L2,Bane 2
+L2.Desc,-,-
+L3.Name,W1 - L3,Bane 3
+L3.Desc,-,-
+L4.Name,W2 - L1,Bane 4
+L4.Desc,-,-
+L5.Name,W2 - L2,Bane 5
+L5.Desc,-,-
+L6.Name,W2 - L3,Bane 6
+L6.Desc,-,-
+L7.Name,W3 - L1,Bane 7
+L7.Desc,-,-
+L8.Name,W3 - L2,Bane 8
+L8.Desc,-,-
+L9.Name,W3 - L3,Bane 9
+L9.Desc,-,-
+L10.Name,W3 - L4,Bane 10
+L10.Desc,-,-
+Game.TotalCoins,{0} x ,{0} x 
+WorldSelect,World Select,Velg Verden
+LevelSelect,Level Select,Velg Level

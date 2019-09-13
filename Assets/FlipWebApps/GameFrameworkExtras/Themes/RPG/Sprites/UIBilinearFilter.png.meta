@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: 1e85925acb79bc748a35f0715c053e4f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ButtonImagesMediumArrow
+    21300002: ButtonImagesMediumCancel
+    21300004: ButtonImagesMediumFacebook
+    21300006: ButtonImagesMediumHome
+    21300008: ButtonImagesMediumLike
+    21300010: ButtonImagesMediumOk
+    21300012: ButtonImagesMediumPlay
+    21300014: ButtonImagesMediumReload
+    21300016: ButtonImagesMediumSettings
+    21300018: IconCoinLarge
+    21300020: IconCoinSmall
+    21300022: IconLock
+    21300024: IconLockBig
+    21300026: RoundButton
+    21300028: RoundButtonOrange
+    21300030: StarActiveBig
+    21300032: StarActiveSmall
+    21300034: StarInactiveBig
+    21300036: StarInactiveSmall
+    21300038: UIScrollBar
+    21300040: HeartBig
+    21300042: HeartBigEmpty
+    21300044: HeartSmall
+    21300046: HeartSmallEmpty
+    21300048: IconHeartBig
+    21300050: IconHeartSmall
+    21300052: ButtonImagesMediumPause
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ButtonImagesMediumArrow
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 270
+        width: 54
+        height: 37
+      alignment: 9
+      pivot: {x: 0.49074075, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonImagesMediumCancel
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 134
+        width: 40
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonImagesMediumFacebook
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 190
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48958334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonImagesMediumHome
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 364
+        width: 51
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonImagesMediumLike
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 311
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5102041, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonImagesMediumOk
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 179
+        width: 45
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonImagesMediumPause
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 86
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonImagesMediumPlay
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 37
+        width: 34
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonImagesMediumReload
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 143
+        width: 56
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonImagesMediumSettings
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 409
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconCoinLarge
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 242
+        width: 66
+        height: 67
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.49253732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconCoinSmall
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 91
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.4852941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconHeartBig
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 174
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconHeartSmall
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconLock
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 454
+        width: 44
+        height: 55
+      alignment: 9
+      pivot: {x: 0.47727272, y: 0.4909091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconLockBig
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 197
+        width: 91
+        height: 113
+      alignment: 9
+      pivot: {x: 0.50549453, y: 0.49115044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoundButton
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 410
+        width: 99
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4949495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoundButtonOrange
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 410
+        width: 99
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4949495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarActiveBig
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 314
+        width: 94
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarActiveSmall
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 284
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarInactiveBig
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 313
+        width: 96
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5052083, y: 0.49462366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarInactiveSmall
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 129
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.48214287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIScrollBar
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 220
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,50 @@
+{
+  "level": "92",
+  "preview":"taske",
+  "words": [
+    {
+      "word": "skate",
+      "length": 5
+    },
+    {
+      "word": "steak",
+      "length": 5
+    },
+    {
+      "word": "stake",
+      "length": 5
+    },
+    {
+      "word": "take",
+      "length": 4
+    },  
+    {
+      "word": "east",
+      "length": 4
+    }, 
+    {
+      "word": "task",
+      "length": 4
+    },  
+    {
+      "word": "ask",
+      "length": 3
+    },      
+    {
+      "word": "eat",
+      "length": 3
+    },  
+    {
+      "word": "tea",
+      "length": 3
+    },  
+    {
+      "word": "sea",
+      "length": 3
+    },      
+    {
+      "word": "sake",
+      "length": 4
+    }
+  ]
+}

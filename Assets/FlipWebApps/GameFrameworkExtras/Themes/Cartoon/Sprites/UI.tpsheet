@@ -1,0 +1,46 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: UI.png (512 x 512)
+# $TexturePacker:SmartUpdate:623af0e6303725446e3b5cd3f2d43e30:2b9e09d1b39efb3bc24bc476bbd5ba1f:64d56465927d50bb5400e4c66dc46a97$
+#
+
+ButtonImagesMediumArrow;345;175;51;34;0.5;0.5
+ButtonImagesMediumCancel;385;11;38;38;0.5;0.5
+ButtonImagesMediumFacebook;196;80;25;45;0.5;0.5
+ButtonImagesMediumHome;289;121;49;38;0.5;0.5
+ButtonImagesMediumLike;2;262;46;45;0.5;0.5
+ButtonImagesMediumOk;67;128;43;34;0.5;0.5
+ButtonImagesMediumPause;256;85;31;40;0.5;0.5
+ButtonImagesMediumPlay;223;83;31;42;0.5;0.5
+ButtonImagesMediumReload;345;261;54;47;0.5;0.5
+ButtonImagesMediumSettings;385;51;40;39;0.5;0.5
+Frame;345;211;51;48;0.5098039215686274;0.48958333333333337
+IconCoinLarge;207;11;66;67;0.5075757575757576;0.4925373134328358
+IconCoinSmall;425;15;34;34;0.5147058823529411;0.4852941176470589
+IconHeartBig;95;3;64;64;0.5;0.5
+IconHeartSmall;2;127;32;32;0.5;0.5
+IconLock;161;12;44;55;0.4772727272727273;0.49090909090909096
+IconLockBig;2;12;91;113;0.5054945054945055;0.4911504424778761
+NestedPanel;100;164;82;93;0.5;0.5
+NestedPanelHighlighted;112;69;82;93;0.5;0.5
+Panel;203;161;140;147;0.5;0.5
+RoundButtonMediumBlue;404;407;102;103;0.5;0.49514563106796117
+RoundButtonMediumGreen;404;302;102;103;0.5;0.49514563106796117
+RoundButtonMediumOrange;401;197;102;103;0.5;0.49514563106796117
+RoundButtonMediumRed;398;92;102;103;0.5;0.49514563106796117
+SquareButtonLargeBlue;2;410;199;100;0.5025125628140703;0.5
+SquareButtonLargeGreen;2;309;199;99;0.5;0.4949494949494949
+SquareButtonLargeGrey;203;310;199;98;0.5;0.5
+SquareButtonLargeOrange;203;410;199;100;0.5025125628140703;0.5
+StarActiveBig;289;27;94;92;0.5;0.5
+StarActiveSmall;196;134;25;25;0.5;0.5
+StarInactiveBig;2;164;96;93;0.5052083333333334;0.4946236559139785
+StarInactiveSmall;36;131;29;28;0.5172413793103449;0.4821428571428571
+TitleBar;67;259;130;48;0.5;0.5
+UIScrollBar;345;127;49;46;0.5;0.5
+WhiteGradientRectangle;184;241;16;16;0.5;0.5
+WhiteRectangle;184;223;16;16;0.5;0.5

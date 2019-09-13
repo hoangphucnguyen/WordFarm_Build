@@ -1,0 +1,46 @@
+{
+  "level": "50",
+  "preview":"acsre",
+  "words": [
+    {
+      "word": "scare",
+      "length": 5
+    },
+    {
+      "word": "scar",
+      "length": 4
+    },
+    {
+      "word": "acre",
+      "length": 4
+    },
+    {
+      "word": "race",
+      "length": 4
+    },
+    {
+      "word": "case",
+      "length": 4
+    },    
+    {
+      "word": "sear",
+      "length": 4
+    },    
+    {
+      "word": "care",
+      "length": 4
+    },
+    {
+      "word": "car",
+      "length": 3
+    },
+    {
+      "word": "arc",
+      "length": 3
+    },
+    {
+      "word": "ear",
+      "length": 3
+    }    
+  ]
+}

@@ -1,0 +1,33 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/FlipWebApps/BeautifulTransitions/_Demo/DisplayItem/Sprites/UI.tpsheet
+- Assets/FlipWebApps/GameFramework/Themes/Minimalist/Sprites/UI.tpsheet
+- Assets/FlipWebApps/GameFrameworkExtras/Themes/Cartoon/Sprites/UI.tpsheet
+- Assets/FlipWebApps/GameFrameworkExtras/Themes/RPG/Sprites/UIBilinearFilter.tpsheet
+- Assets/FlipWebApps/GameFrameworkExtras/Themes/RPG/Sprites/UIPointFilter.tpsheet
+- Assets/FlipWebApps/GameFrameworkExtras/Themes/Space/Sprites/UI.tpsheet
+- Assets/Project/Images/bigger.tpsheet
+- Assets/Project/Images/gameplay.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/FlipWebApps/BeautifulTransitions/_Demo/DisplayItem/Sprites/UI.png
+- Assets/FlipWebApps/GameFramework/Themes/Minimalist/Sprites/UI.png
+- Assets/FlipWebApps/GameFrameworkExtras/Themes/Cartoon/Sprites/UI.png
+- Assets/FlipWebApps/GameFrameworkExtras/Themes/RPG/Sprites/UIBilinearFilter.png
+- Assets/FlipWebApps/GameFrameworkExtras/Themes/RPG/Sprites/UIPointFilter.png
+- Assets/FlipWebApps/GameFrameworkExtras/Themes/Space/Sprites/UI.png
+- Assets/Project/Images/bigger.png
+- Assets/Project/Images/gameplay.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

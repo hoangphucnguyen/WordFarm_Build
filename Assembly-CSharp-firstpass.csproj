@@ -1,0 +1,1185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{97EE52CC-E666-F124-F70E-0A35ABD9A08F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_0;UNITY_2018_3;UNITY_2018;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;UNITY_ADS;UNITY_PURCHASING;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;NET_LEGACY;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;PREFS_EDITOR;BEAUTIFUL_TRANSITIONS;FACEBOOK_SDK</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity2018\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Demo\SampleTimer.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Addons\Soomla\AN_SoomlaEventType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Addons\Soomla\AN_SoomlaGrow.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Addons\Soomla\AN_SoomlaProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Addons\Soomla\AN_SoomlaSocialProvider.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Controllers\AndroidAdMob.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Controllers\AndroidAdMobController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Controllers\GADBannerIdFactory.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Enum\AndroidMonth.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Enum\GADBannerSize.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Enum\GADInAppResolution.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Enum\GoogleGender.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Enum\GoogleGravity.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Enum\GoogleMobileAdEvents.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Interfaces\GoogleMobileAdBanner.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Interfaces\GoogleMobileAdInterface.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Ad\Models\AndroidADBanner.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Clients\AN_InApp_AndroidClient.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Clients\AN_InApp_EditorClient.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Enum\AN_InAppType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Enum\BillingResponseCodes.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Enum\GooglePurchaseState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Interfaces\AN_InAppClient.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Manage\AndroidInAppPurchaseManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Models\AndroidInventory.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Models\BillingResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Tasks\InitAndroidInventoryTask.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Templates\GoogleProductTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Billing\Templates\GooglePurchaseTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Core\AndroidNativeSettings.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Core\SocialPlatfromSettings.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Firebase\Analytics\AN_FirebaseAnalytics.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Firebase\APIBridge\AN_DynamicLinksProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Firebase\APIBridge\AN_FirebaseProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Firebase\DynamicLinks\AN_DynamicLink.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Firebase\DynamicLinks\AN_DynamicLinkEditorTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Firebase\DynamicLinks\AN_DynamicLinksManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Firebase\DynamicLinks\AN_ShortLinkResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Core\Connection.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Core\History.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Core\Recording.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Core\Sensors.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Core\Sessions.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Enums\ConnectionState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Enums\DataSourceType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Enums\TimeUnit.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\Bucket.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\ConnectionResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\DataPoint.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\DataSet.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\DataSource.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\DataType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\DeleteDataRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\FitnessActivity.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\LoginApi.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\LoginScope.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\ReadDailyTotalRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\ReadDailyTotalResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\ReadHistoryRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\ReadHistoryResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\ReadSessionRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\ReadSessionResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\SensorListener.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\SensorRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\SensorRequestResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\Session.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\StartSessionRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\StopSessionRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\StopSessionResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\SubscribeRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\Subscription.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\SubscriptionsRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\SubscriptionsRequestResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Models\UnsubscribeRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Fitness\Platforms\FitnessProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\GCM\GoogleCloudMessageService.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\GCM\GP_GCM_RegistrationResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Google+\Manage\GooglePlusAPI.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Google+\PlusButton\Enums\AN_PlusBtnAnnotation.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Google+\PlusButton\Enums\AN_PlusBtnSize.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Google+\PlusButton\Models\AN_PlusButton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Google+\PlusButton\Models\AN_PlusButtonsManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Google+\PlusShare\AN_DeepLinkingManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Google+\PlusShare\AN_PlusShareBuilder.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Google+\PlusShare\AN_PlusShareListener.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\AppInvites\Controllers\GP_AppInvitesController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\AppInvites\Models\GP_AppInvite.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\AppInvites\Models\GP_AppInviteBuilder.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\AppInvites\Results\GP_RetrieveAppInviteResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\AppInvites\Results\GP_SendAppInvitesResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Controllers\GooglePlayConnection.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Controllers\GooglePlayEvents.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Controllers\GooglePlayInvitationManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Controllers\GooglePlayManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\AdroidActivityResultCodes.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GP_AppStateStatusCodes.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GP_ConnectionResultCode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GP_GamesActivityResultCodes.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GP_GamesStatusCodes.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GP_InvitationType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GP_MatchesSortOrder.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GP_PlayServicesStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GPAchievementState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GPAchievementType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GPBoardTimeSpan.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GPCollectionType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GPConnectionState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GPGameRequestType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Enum\GPLogLevel.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Models\GooglePlayerTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Models\GP_Invite.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Models\GP_LocalPlayerScoreUpdateListener.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Models\GP_Participant.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Models\GP_SnapshotConflict.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Models\GPAchievement.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Models\GPGameRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Models\GPLeaderBoard.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Models\GPScore.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Models\GPScoreCollection.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\AN_InvitationInboxCloseResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\AndroidActivityResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\AndroidGameActivityResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\GooglePlayConnectionResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\GooglePlayGiftRequestResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\GooglePlayResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\GP_AchievementResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\GP_LeaderboardResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\GP_ParticipantResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\GP_ScoreResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Results\GP_SpanshotLoadResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Quests\Enum\GP_QuestSortOrder.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Quests\Enum\GP_QuestsSelect.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Quests\Enum\GP_QuestState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Quests\Manage\GooglePlayQuests.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Quests\Models\GP_Event.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Quests\Models\GP_Quest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Quests\Results\GP_QuestResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Enum\GP_RTM_MessageType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Enum\GP_RTM_PackageType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Enum\GP_RTM_ParticipantStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Enum\GP_RTM_RoomStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Manage\GooglePlayRTM.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Models\GP_RTM_NETWORK_PACKAGE.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Models\GP_RTM_ReliableMessageDeliveredResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Models\GP_RTM_ReliableMessageListener.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Models\GP_RTM_ReliableMessageSentResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Models\GP_RTM_Result.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\RTM\Models\GP_RTM_Room.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\SavedGames\Manage\GooglePlaySavedGamesManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\SavedGames\Models\GP_Snapshot.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\SavedGames\Models\GP_SnapshotMeta.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\SavedGames\Results\GP_DeleteSnapshotResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Enum\GP_TBM_MatchesSortOrder.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Enum\GP_TBM_MatchStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Enum\GP_TBM_MatchTurnStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Enum\GP_TBM_ParticipantResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Manage\GooglePlayTBM.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Models\GP_TBM_Match.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Results\GP_TBM_CancelMatchResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Results\GP_TBM_LeaveMatchResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Results\GP_TBM_LoadMatchesResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Results\GP_TBM_LoadMatchResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Results\GP_TBM_MatchInitiatedResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Results\GP_TBM_MatchRemovedResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\TBM\Results\GP_TBM_UpdateMatchResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Utils\GooglePlayUtils.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Utils\PlayServiceUtil.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PopUps\AndroidDialog.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PopUps\AndroidDialogResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PopUps\AndroidDialogTheme.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PopUps\AndroidMessage.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PopUps\AndroidRateUsPopUp.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PopUps\Base\BaseAndroidPopup.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Enum\FacebookEvents.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Enum\FB_AppRequestState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Enum\FB_Gender.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Enum\FB_HttpMethod.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Enum\FB_PermissionStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Enum\FB_RequestActionType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Interfaces\SP_FB_API.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Manage\SP_FB_API_v6.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Manage\SP_FB_API_v7.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Manage\SPFacebook.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Manage\SPFacebookAnalytics.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Models\FB_AppInviteResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Models\FB_AppRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Models\FB_AppRequestResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Models\FB_LikeInfo.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Models\FB_Object.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Models\FB_Permission.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Models\FB_PermissionResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Models\FB_ProfileImageSize.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Models\FB_Score.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Models\FB_UserInfo.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Results\FB_LoginResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Results\FB_PostResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Results\FB_Result.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Tasks\FB_GrapRequest_V6.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Tasks\FB_GrapRequest_V7.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Tasks\FB_LikesRetrieveTask.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Facebook\Tasks\FB_PostingTask.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Instagram\Enum\InstagramEvents.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Instagram\Enum\InstagramPostResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Instagram\Manage\AndroidInstagramManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Models\AsyncTask.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Manage\AndroidTwitterManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Manage\TwitterApplicationOnlyToken.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Manage\TwitterDataCash.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Manage\TwitterManagerInterface.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Models\TW_APIRequstResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Models\TweetTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Models\TwitterEvents.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Models\TwitterStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Models\TwitterUserInfo.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Models\TWResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Tasks\TW_APIRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Tasks\TW_FollowersIdsRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Tasks\TW_FriendsIdsRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Tasks\TW_OAuthAPIRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Tasks\TW_SearchTweetsRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Tasks\TW_UsersLookUpRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Tasks\TW_UserTimeLineRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Tasks\TWAPITest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\Social\Twitter\Tasks\TwitterPostingTask.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Analytics\AndroidGoogleAnalytics.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_AppInvitesProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_BillingProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_CloudMessagingProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_FBProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_GMSGeneralProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_GMSGiftsProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_GMSInvitationProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_GMSQuestsEventsProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_GMSRTMProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_GoogleAdProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_GoogleAnalyticsProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_GooglePlayUtilsProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_ImmersiveModeProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_LicenseManagerProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_NotificationProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_PlusButtonProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_PoupsProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_ProxyPool.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_SocialSharingProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_TVControllerProxy.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AndroidNative.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\AppLicensing\AN_LicenseErrorCode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\AppLicensing\AN_LicenseManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\AppLicensing\AN_LicenseRequestResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\AppLicensing\AN_LicenseStatusCode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Enums\AN_CameraCaptureType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Enums\AN_ExternalStorageType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Enums\AN_Permission.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Enums\AN_PermissionState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Enums\AN_PushNotificationService.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Enums\AN_SettingsActivityAction.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Features\AddressBookController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Features\AndroidAppInfoLoader.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Features\AndroidCamera.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Features\AndroidCameraImageFormat.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Features\AndroidNativeUtility.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Features\AndroidSocialGate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Features\ImmersiveMode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Features\PermissionsManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Features\TVAppController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Models\AN_Locale.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Models\AN_NetworkInfo.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Models\AndroidApp.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Models\PackageAppInfo.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Notifications\AndroidNotificationBuilder.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Notifications\AndroidNotificationManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Notifications\AndroidToast.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Notifications\ParsePushesStub.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Notifications\Templates\LocalNotificationTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Results\AN_AccessTokenResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Results\AN_DeviceCodeResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Results\AN_GrantPermissionsResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Results\AN_PackageCheckResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Results\AN_RefreshTokenResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Results\GallerySaveResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Results\GP_AdvertisingIdLoadResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Storage\AN_Storage.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Templates\AndroidABAddress.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Templates\AndroidABChat.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Templates\AndroidABEmail.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Templates\AndroidABOrganization.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Templates\AndroidContactInfo.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Templates\AndroidImagePickResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Templates\AndroidImagesPickResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\Util\ANMiniJSON.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\DefaultPreviewButton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SA_BackButton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SA_FriendUI.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SA_Label.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SA_PartisipantUI.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SA_StatusBar.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SA_Texture.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SALevelLoader.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SALoadedSceneOnClick.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SAOnClickAction.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SAOpenUrlOnClick.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\SA_UI_Scripts\SASendMessageOnClick.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\ScreenPlacementExtension\PreviewScreenUtil.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\ScreenPlacementExtension\ScreenPlacement.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\ScreenPlacementExtension\ScreenPlacementExtension.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\ScreenPlacementExtension\ScreenScaler.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\PreviewUI\Scripts\ScreenPlacementExtension\XScaleModifayer.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\AdMob\AndroidAdMobBanner.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\AdMob\AndroidAdMobBannerInterstitial.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\AdMob\GoogleAdMobTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Base\AndroidNativeExampleBase.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Billing\BillingTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Billing\GameBillingManagerExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Billing\GameDataExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Billing\GPaymnetManagerExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Billing\InGameBillingTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Core\FeatureSelector.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Core\FeatureTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Core\TintedToggle.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\DataTemplates\CustomLeaderboardFiledsHolder.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\DataTemplates\CustomPlayerUIRow.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\JS\CSharpAPIHelper.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Networking\RTM_Game_Example.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Networking\TBM_Game_Example.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\AddressBookExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\AnalyticsUseExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\ANNativeEventsExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\AnOtherFeaturesPreview.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\GooglePlusTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\MoreInfoTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\NativeApiTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\NativePopUpsTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\NotificationsTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\PermissionsAPIExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Others\PlusButtonsAPIExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\FriendInfoPresenter.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\FriendPresenter.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\FriendsLoadingTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\GoogleFitExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\GooglePlayServicesTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\LeaderboardInfoPresenter.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\LeaderboardsUITab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\ParticipantPresenter.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\QuestsAndEventsTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\RealTimeMultiplayerTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\PlayService\SavedGamesTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Social\FacebookAnalyticsExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Social\FacebookAndroidTurnBasedAndGiftsExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Social\FacebookApiTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Social\SendSmsExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Social\SocialSharingTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\Social\TwitterApiTab.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Config\ISD_Settings.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Enum\ISD_FlagTypes.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Enum\ISD_Frameworks.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Enum\ISD_PlistValueTypes.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_AssetFile.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_Flag.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_Framework.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_FrameworkHandler.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_Lib.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_LibHandler.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_Variable.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_VariableId.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\MiniJSON\MiniJSON.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXBuildFile.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXBuildPhase.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXDictionary.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXFileReference.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXGroup.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXList.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXObject.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXParser.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXProject.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXSortedDictionary.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\PBX Editor\PBXVariantGroup.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\Plist\Plist.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\XCBuildConfiguration.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\XCConfigurationList.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\XCMod.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\XCodePostProcess.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\XCPlist.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Xcp\XCProject.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Addons\Soomla\Controllers\ISN_SoomlaGrow.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Addons\Soomla\Enum\ISN_SoomlaAction.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Addons\Soomla\Enum\ISN_SoomlaEvent.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Addons\Soomla\Enum\ISN_SoomlaProvider.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Core\IOSNativeSettings.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Core\ISN_AppController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\GameCenter_RTM.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\GameCenter_TBM.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\GameCenterInvitations.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\GameCenterManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\ISN_CacheManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\ISN_GameSaves.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Enum\GK_CollectionType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Enum\GK_InviteRecipientResponse.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Enum\GK_MatchType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Enum\GK_PhotoSize.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Enum\GK_TimeSpan.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Models\GK_FriendRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\GK_AchievementProgressResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\GK_LeaderboardResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\GK_PlayerSignatureResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\GK_UserInfoLoadResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\GK_UserPhotoLoadResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\ISN_LoadLeaderboardsInfoResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_AchievementTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_Invite.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_Leaderboard.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_LeaderBoardInfo.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_LeaderboardSet.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_LocalPlayerScoreUpdateListener.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_Player.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_Score.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_ScoreCollection.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Models\GK_SavedGame.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Results\GK_FetchResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Results\GK_SaveDataLoaded.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Results\GK_SaveRemoveResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Results\GK_SaveResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Results\GK_SavesResolveResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\RTM\Enum\GK_MatchSendDataMode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\RTM\Enum\GK_PlayerConnectionState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\RTM\Results\GK_RTM_MatchStartedResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\RTM\Results\GK_RTM_QueryActivityResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\RTM\Templates\GK_RTM_Match.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Enum\GK_TurnBasedMatchOutcome.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Enum\GK_TurnBasedMatchStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Enum\GK_TurnBasedParticipantStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_EndTrunResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_LoadMatchesResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_LoadMatchResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchDataUpdateResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchEndResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchInitResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchQuitResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchRemovedResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchTurnResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_RematchResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Templates\GK_TBM_Match.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Templates\GK_TBM_Participant.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Controllers\iCloudManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Controllers\ISN_CloudKit.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Models\CK_Database.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Models\CK_Query.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Models\CK_Record.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Models\CK_RecordID.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Results\CK_QueryResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Results\CK_RecordDeleteResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Results\CK_RecordResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Templates\iCloudData.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Camera\Controllers\IOSCamera.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Camera\Enum\ISN_ImageSource.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Camera\Results\IOSImagePickResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Gallery\Controllers\ISN_FilePicker.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Gallery\Enum\IOSGalleryLoadImageFormat.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Gallery\Results\ISN_FilePickerResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Controllers\ISN_MediaController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Enum\MP_MusicPlaybackState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Enum\MP_MusicRepeatMode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Enum\MP_MusicShuffleMode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Models\MP_MediaItem.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Results\MP_MediaPickerResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Video\Controllers\IOSVideoManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Video\Controllers\ISN_ReplayKit.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Video\Results\ReplayKitVideoShareResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Controllers\ISN_LocalNotificationsController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Controllers\ISN_RemoteNotificationsController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Enum\ISN_NotificationType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Models\ISN_DeviceToken.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Models\ISN_LocalNotification.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Models\ISN_RemoteNotification.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Results\ISN_RemoteNotificationsRegistrationResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Controllers\IOSNativePopUpManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Models\BaseIOSPopup.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Models\IOSDialog.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Models\IOSMessage.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Models\IOSRateUsPopUp.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Results\IOSDialogResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\UserNotifications\Controllers\NativeReceiver.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\UserNotifications\Controllers\NotificationCenter.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\UserNotifications\Enum\AlertStyle.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\UserNotifications\Enum\AuthorizationStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\UserNotifications\Enum\NotificationStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\UserNotifications\Models\Base\NotificationContent.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\UserNotifications\Models\Base\NotificationRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\UserNotifications\Models\Base\NotificationTrigger.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\UserNotifications\Models\Trigers\CalendarTrigger.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\UserNotifications\Models\Trigers\TimeIntervalTrigger.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Social\Controllers\IOSSocialManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Social\Enum\ISN_TextMessageComposeResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Controllers\ISN_BillingInitChecker.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Controllers\ISN_BillingNativeBridge.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Controllers\ISN_PaymentManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Enum\ISN_PriceTier.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Enum\ISN_ProductType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Enum\ISN_PurchaseState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Enum\ISN_TransactionErrorCode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Enum\ISN_TransactionsHandlingMode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Models\ISN_SK_Util.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Models\ISN_StoreProductView.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Controllers\SK_CloudService.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Enums\SK_CloudServiceAuthorizationStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Enums\SK_CloudServiceCapability.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Results\SK_AuthorizationResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Results\SK_RequestCapabilitieResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Results\SK_RequestStorefrontIdentifierResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\Review\SK_StoreReviewController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Templates\ISN_Product.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Templates\ISN_PurchaseResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Templates\ISN_RestoreResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Templates\ISN_VerificationResponse.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Contacts\ISN_Contact.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Contacts\ISN_ContactsResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Contacts\ISN_ContactStore.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Contacts\ISN_PhoneNumber.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Device\ISN_Build.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Device\ISN_Device.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Device\ISN_DeviceGUID.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Device\ISN_InterfaceIdiom.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Device\ISN_TimeZone.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Gestures\ISN_ForceTouch.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Gestures\ISN_GestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Gestures\ISN_SwipeDirection.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Logger\ISN_Logger.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Models\ISN_ForceTouchMenuItem.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Models\ISN_LaunchUrl.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Models\ISN_UniversalLink.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Models\ISN_UrlType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Privacy\Permissions\ISN_NativeReceiver.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Privacy\Permissions\ISN_PermissionsManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Privacy\Permissions\ISN_PermissionStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Privacy\Permissions\ISN_PrivacyPermission.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Security\ISN_LocalReceiptResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Security\ISN_Security.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\SharedApplication\ISN_SharedApplication.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Storage\ISN_AppCache.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Utility\IOSNativeUtility.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Utility\ISN_Locale.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\UIKit\Calendar\ISN_Calendar.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\UIKit\DateTimePicker\ISN_DateTimePicker.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\UIKit\DateTimePicker\ISN_DateTimePickerMode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\UIKit\Service\ISN_NativeReceiver.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Base\BaseIOSFeaturePreview.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Billing\MarketExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Billing\PaymentManagerExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\GameCenterExamples\GameCenterExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\GameCenterExamples\GameCenterFriendLoadExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\GameCenterExamples\LeaderboardCustomGUIExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\JSExample\JSHelper.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\MultiplayerManagerExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\GUI\ConnectionButton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\GUI\DisconnectButton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\managers\ClickManagerExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\managers\NetworkManagerExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\managers\PTPGameController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\packages\BasePackage.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\packages\HelloPackage.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\packages\ObjectCreatePackage.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\Utils\ByteBuffer.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\TBM_Multiplayer_Example.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\AppEventHandlerExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\CloudKitUseExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\GameSavesExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\iCloudUseExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\IOSSocialUseExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\ISNMediaExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\LocalStorageUseExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\NativeIOSActionsExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\NotificationExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\PopUpExamples.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\ReplayKitUseExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Preview\IOSNativeFeaturesPreview.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Preview\IOSNativePreviewBackButton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\TvOS\GameCenterTvOSExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\TvOS\TvOsCloudExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\TvOS\TvOSInAppsExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\ManifestManager\AMM_Manager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\ManifestManager\Core\AMM_Settings.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\ManifestManager\Models\AMM_ActivityTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\ManifestManager\Models\AMM_ApplicationTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\ManifestManager\Models\AMM_BaseTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\ManifestManager\Models\AMM_ManifestPermission.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\ManifestManager\Models\AMM_PropertyTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\ManifestManager\Models\AMM_Template.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Data\SA_Converter.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Data\SA_MiniJSON.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Effetcs\Animations\Tween\Enums\SA_EaseType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Effetcs\Animations\Tween\Methods\SA_ValuesTween.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Effetcs\Animations\Tween\Pixelplacement\iTween\SA_iTween.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_Error.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_Invoker.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_PrefabAsyncLoader.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_Result.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_ScreenshotMaker.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_WWWTextureLoader.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Modules\SA_Config.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Extensions\SA_GameObjectExtensions.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Extensions\SA_TextureExtensions.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Extensions\SA_UnityExtensions.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Extensions\VertexX.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Extensions\VertexY.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Extensions\VertexZ.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_Files.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_GeneralUtility.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_IconManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_IdFactory.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_Loader.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_Screen.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Patterns\SA_NonMonoSingleton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Patterns\SA_Singleton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Advertisement\SA_Ad_EditorUIController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Advertisement\SA_EditorAd.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\InAppPurchaces\SA_EditorInApps.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\InAppPurchaces\SA_InApps_EditorUIController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Notifications\SA_EditorNotifications.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Notifications\SA_EditorNotificationType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Notifications\SA_Notifications_EditorUIController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Utilities\SA_EditorTesting.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Utilities\SA_UIHightDependence.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Utilities\SA_UIWidthDependence.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\xTextScene\SA_EditorTestingSceneController.cs" />
+     <Compile Include="Assets\Plugins\UnbiasedTime\UnbiasedTime.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\AndroidWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\iOSWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\PlatformWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\UnityAnalytics.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\UnityAnalyticsBuildHooks.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\UnityAnalyticsEditor.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\WebGLWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\WebPlayerWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\WindowsFileSystem.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\WindowsMetroWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityChannel\XiaomiSupport\AppStoreSettings.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\generated\AppleTangle.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\generated\GooglePlayTangle.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\generated\UnityChannelTangle.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\ComboBox.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\Demo\DemoInventory.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPButton.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPConfigurationHelper.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemo.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemoProductUI.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPListener.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\PurchasingCheck.cs" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\billing\an_billing.jar.txt" />
+     <None Include="Assets\Plugins\UnityPurchasing\Android\proguard-user.txt.OPTIONAL.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_DFContinuousForceTouchGestureRecognizer.h.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-plus.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-gcm.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-iid.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_InApp.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\values\analytics.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-common.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-appinvite.txt" />
+     <None Include="Assets\Plugins\Android\play-services-ads-lite-18.0.0\res\values\values.xml" />
+     <None Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Documentation\ReadMe.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\MSP_VersionInfo.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-games.jar.txt" />
+     <None Include="Assets\Plugins\Android\AdColony\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_GestureRecognizer.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\IOSNative\Documentation\ISN_VersionNotes.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\social\an_social.jar.txt" />
+     <None Include="Assets\Plugins\Android\play-services-ads-lite-18.0.0\proguard.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Privacy.mm.txt" />
+     <None Include="Assets\Plugins\Android\fabric\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\an_googleplay.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_DFContinuousForceTouchGestureRecognizer.m.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\ISN_VersionInfo.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\image-chooser-library-1.6.0.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-games.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\play-services-fitness.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics\NOTICE.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_FilePicker.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_CloudKit.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-drive.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics-wrapper\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_GameCenter.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\AN_VersionInfo.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_SocialGate.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\play-services-fitness.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\ManifestManager\default.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_RemoteNotifications.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Documentation\AN_VersionNotes.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics.jar.txt" />
+     <None Include="Assets\Plugins\readme.txt" />
+     <None Include="Assets\Plugins\Android\fabric-init\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-analytics-impl.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-gcm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\androidnative.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Camera.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\social\an_social.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-drive.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AndroidManifest.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads-lite.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-analytics.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-base.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\xml\file_paths.xml" />
+     <None Include="Assets\Plugins\UnbiasedTime\UnbiasedTime_UnityPro.txt" />
+     <None Include="Assets\Plugins\Branch\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\androidnative.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\an_googleplay.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth-base.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-tasks.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Contacts.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\app_licensing\an_licensing_library.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.mm.txt" />
+     <None Include="Assets\Plugins\Android\play-services-ads-lite-18.0.0\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics\THIRDPARTYLICENSE.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_ForceTouch.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\billing\an_billing.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-dynamic-links.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\ids.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\AndroidManifest.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Media.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-basement.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.h.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-iid.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Documentation\ReadMe.txt" />
+     <None Include="Assets\Plugins\Android\answers\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-basement.jar.txt" />
+     <None Include="Assets\Plugins\Android\fabric\NOTICE.txt" />
+     <None Include="Assets\Plugins\UnityPurchasing\script\link.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\social\twitter4j-core-4.0.4.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_UserNotifications.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics-impl.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth-base.txt" />
+     <None Include="Assets\Plugins\Android\play-services-ads-lite-18.0.0\R.txt" />
+     <None Include="Assets\Plugins\Android\play-services-ads-lite-18.0.0\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\an_fitness.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-plus.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\an_sa_soomla.txt" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\Template-AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-appinvite.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Soomla.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-safetynet.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\IOSNative\Documentation\ReadMe.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-iid.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_ReplayKit.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads-lite.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_AppController.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-tasks.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_UserNotifications.h.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\values\version.xml" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\analytics.xml" />
+     <None Include="Assets\Plugins\Android\fabric\res\values\strings.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-base.jar.txt" />
+     <None Include="Assets\Plugins\Android\beta\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\xml\file_paths.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\values\ids.xml" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\version.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-safetynet.jar.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics-impl.jar.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\THIRDPARTYLICENSE.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\an_fitness.jar.txt" />
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.BaselibModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTrackingModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TimelineModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Locator">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="AWSSDK.CognitoIdentity">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll</HintPath>
+ </Reference>
+ <Reference Include="AWSSDK.Core">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/AWSSDK/AWSSDK.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="AWSSDK.S3">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/AWSSDK/AWSSDK.S3.dll</HintPath>
+ </Reference>
+ <Reference Include="AWSSDK.SecurityToken">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/AWSSDK/AWSSDK.SecurityToken.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="Analytics">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Fabric/Managed/Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Validator">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Fabric/Managed/Validator.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Gameroom">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookNamedPipeClient">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="BouncyCastle_GameSparks">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/GameSparks/Plugins/BouncyCastle_GameSparks.dll</HintPath>
+ </Reference>
+ <Reference Include="GameSparks.Api">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/GameSparks/Plugins/GameSparks.Api.dll</HintPath>
+ </Reference>
+ <Reference Include="GameSparks">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/GameSparks/Plugins/GameSparks.dll</HintPath>
+ </Reference>
+ <Reference Include="GameSparksRT">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/GameSparks/Plugins/GameSparksRT.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Cloud.Analytics">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityEngine.Cloud.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Cloud.Analytics.Util">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityEngine.Cloud.Analytics.Util.dll</HintPath>
+ </Reference>
+ <Reference Include="ChannelPurchase">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityStore">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookStore">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>E:/Game/Reskin/WordFarm1/WordFarm/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>C:/Program Files/Unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

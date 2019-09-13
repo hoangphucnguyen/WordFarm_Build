@@ -1,0 +1,62 @@
+{
+  "level": "160",
+  "preview":"torac",
+  "words": [
+    {
+      "word": "actor",
+      "length": 5
+    },
+    {
+      "word": "coat",
+      "length": 4
+    },
+    {
+      "word": "cart",
+      "length": 4
+    },
+    {
+      "word": "taco",
+      "length": 4
+    },
+    {
+      "word": "act",
+      "length": 3
+    },
+    {
+      "word": "art",
+      "length": 3
+    },  
+    {
+      "word": "car",
+      "length": 3
+    }, 
+    {
+      "word": "cat",
+      "length": 3
+    }, 
+    {
+      "word": "oat",
+      "length": 3
+    },     
+    {
+      "word": "rot",
+      "length": 3
+    },     
+    {
+      "word": "rat",
+      "length": 3
+    },     
+    {
+      "word": "tar",
+      "length": 3
+    },  
+    {
+      "word": "at",
+      "length": 2
+    },      
+    {
+      "word": "arc",
+      "length": 3
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "level": "148",
+  "preview":"ceona",
+  "words": [
+    {
+      "word": "ocean",
+      "length": 5
+    },
+    {
+      "word": "canoe",
+      "length": 5
+    },
+    {
+      "word": "cane",
+      "length": 4
+    },
+    {
+      "word": "cone",
+      "length": 4
+    },    
+    {
+      "word": "one",
+      "length": 3
+    }, 
+    {
+      "word": "on",
+      "length": 2
+    },    
+    {
+      "word": "no",
+      "length": 2
+    },      
+    {
+      "word": "can",
+      "length": 3
+    }
+  ]
+}

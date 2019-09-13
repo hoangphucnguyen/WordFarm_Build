@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: 598c7125cbdea4141a6b33fddc522967
+labels:
+- FreePrize
+timeCreated: 1453482790
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone_end
+    100006: //RootNode
+    100008: Box
+    100010: Camera
+    100012: Lamp
+    100014: Lid
+    100016: Ribbon
+    100018: Ribbon Flipped Normals
+    400000: Armature
+    400002: Bone
+    400004: Bone_end
+    400006: //RootNode
+    400008: Box
+    400010: Camera
+    400012: Lamp
+    400014: Lid
+    400016: Ribbon
+    400018: Ribbon Flipped Normals
+    2300000: Box
+    2300002: Lid
+    2300004: Ribbon
+    2300006: Ribbon Flipped Normals
+    3300000: Box
+    3300002: Lid
+    3300004: Ribbon
+    3300006: Ribbon Flipped Normals
+    4300000: Ribbon Flipped Normals
+    4300002: Ribbon
+    4300004: Lid
+    4300006: Box
+    7400000: Ribbon Flipped Normals|Action
+    7400002: Ribbon Flipped Normals|BoxAction.002
+    7400004: Ribbon Flipped Normals|LidAction.002
+    7400006: Ribbon Flipped Normals|RibbonAction.002
+    7400008: Ribbon|Action
+    7400010: Ribbon|BoxAction.002
+    7400012: Ribbon|LidAction.002
+    7400014: Ribbon|RibbonAction.002
+    7400016: Lid|Action
+    7400018: Lid|BoxAction.002
+    7400020: Lid|LidAction.002
+    7400022: Lid|RibbonAction.002
+    7400024: Box|Action
+    7400026: Box|BoxAction.002
+    7400028: Box|LidAction.002
+    7400030: Box|RibbonAction.002
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

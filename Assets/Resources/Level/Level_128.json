@@ -1,0 +1,38 @@
+{
+  "level": "128",
+  "preview":"boato",
+  "words": [
+    {
+      "word": "taboo",
+      "length": 5
+    },
+    {
+      "word": "boat",
+      "length": 4
+    },
+    {
+      "word": "boot",
+      "length": 4
+    },
+    {
+      "word": "bat",
+      "length": 3
+    },    
+    {
+      "word": "bot",
+      "length": 3
+    },  
+    {
+      "word": "at",
+      "length": 2
+    },     
+    {
+      "word": "tab",
+      "length": 3
+    },     
+    {
+      "word": "oat",
+      "length": 3
+    }
+  ]
+}

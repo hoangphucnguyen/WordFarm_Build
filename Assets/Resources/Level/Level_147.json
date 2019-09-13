@@ -1,0 +1,26 @@
+{
+  "level": "147",
+  "preview":"rbaze",
+  "words": [
+    {
+      "word": "zebra",
+      "length": 5
+    },
+    {
+      "word": "bear",
+      "length": 4
+    },
+    {
+      "word": "bare",
+      "length": 4
+    },
+    {
+      "word": "bar",
+      "length": 3
+    },    
+    {
+      "word": "ear",
+      "length": 3
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "level": "143",
+  "preview":"harcm",
+  "words": [
+    {
+      "word": "charm",
+      "length": 5
+    },
+    {
+      "word": "march",
+      "length": 5
+    },
+    {
+      "word": "arch",
+      "length": 4
+    },
+    {
+      "word": "harm",
+      "length": 4
+    },
+    {
+      "word": "arc",
+      "length": 3
+    },
+    {
+      "word": "arm",
+      "length": 3
+    },
+    {
+      "word": "car",
+      "length": 3
+    },    
+    {
+      "word": "ram",
+      "length": 3
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "858497810083",
+    "firebase_url": "https://wordfarm-170716.firebaseio.com",
+    "project_id": "wordfarm-170716",
+    "storage_bucket": "wordfarm-170716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858497810083:android:e05af59aae199d00",
+        "android_client_info": {
+          "package_name": "com.wordfarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858497810083-0jjtigip6pepv5ft2o7c76t64223r9n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALkdnrv9VbdCMW9gkdc4n2ivgsFwYF220"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+{
+  "level": "5",
+  "preview":"dgo",
+  "words": [
+    {
+      "word": "dog",
+      "length": 3
+    },
+    {
+      "word": "god",
+      "length": 3
+    },
+    {
+      "word": "go",
+      "length": 2
+    }
+  ]
+}

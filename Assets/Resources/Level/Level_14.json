@@ -1,0 +1,22 @@
+{
+  "level": "14",
+  "preview":"tsac",
+  "words": [
+  	{
+      "word": "cats",
+      "length": 4
+    },
+    {
+      "word": "act",
+      "length": 3
+    },
+    {
+      "word": "at",
+      "length": 2
+    },
+    {
+      "word": "sac",
+      "length": 3
+    }
+  ]
+}

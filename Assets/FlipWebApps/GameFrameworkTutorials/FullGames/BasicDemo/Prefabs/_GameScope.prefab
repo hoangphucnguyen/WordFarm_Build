@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &129746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 410354}
+  - 114: {fileID: 11483354}
+  - 114: {fileID: 11429290}
+  - 82: {fileID: 8298316}
+  - 82: {fileID: 8298432}
+  m_Layer: 0
+  m_Name: _GameScope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &410354
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &8298316
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129746}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 064ba1ec715b49848b35dae21503bd1a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8298432
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129746}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11429290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27d184f124a7942429ca6a17c139f1a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DelayRangeToNextCountdown:
+    Min: 0
+    Max: 0
+  TimeRangeToNextPrize:
+    Min: 600
+    Max: 1800
+  SaveAcrossRestarts: 0
+  ValueRange:
+    Min: 10
+    Max: 20
+  PrizeDialogClosedAudioClip: {fileID: 0}
+  ContentPrefab: {fileID: 0}
+  ContentAnimatorController: {fileID: 0}
+  ContentShowsButtons: 0
+--- !u!114 &11483354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7617fad7027e42f46bb17977dac929b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameName: Basic Demo
+  PlayWebUrl: http://play.google.com
+  PlayMarketUrl: http://play.google.com
+  iOSWebUrl: https://itunes.apple.com/us/genre/ios/id36?mt=8
+  IdentifierBase: BasicDemo
+  DebugLevel: 1
+  SecurePreferences: 0
+  PreferencesPassPhrase: 
+  AutoConvertUnsecurePrefs: 0
+  ReferencePhysicalScreenHeightInInches: 4
+  DisplayChangeCheckDelay: 0.5
+  PlayerSetupMode: 1
+  DefaultLives: 3
+  PlayerCount: 1
+  WorldSetupMode: 0
+  AutoCreateWorlds: 0
+  NumberOfAutoCreatedWorlds: 0
+  LoadWorldDatafromResources: 0
+  WorldUnlockMode: 0
+  CoinsToUnlockWorlds: 10
+  WorldLevelNumbers: []
+  LevelSetupMode: 1
+  AutoCreateLevels: 0
+  NumberOfAutoCreatedLevels: 10
+  LoadLevelDatafromResources: 0
+  LevelUnlockMode: 2
+  CoinsToUnlockLevels: 10
+  CharacterSetupMode: 0
+  AutoCreateCharacters: 0
+  NumberOfAutoCreatedCharacters: 10
+  LoadCharacterDatafromResources: 0
+  CharacterUnlockMode: 0
+  CoinsToUnlockCharacters: 10
+  SupportedLanguages: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Theme
+      value: FullGameBasic
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GameName
+      value: Basic Demo
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IdentifierBase
+      value: BasicDemo
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: LevelSetupMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: AutoCreateLevels
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 129746}
+  m_IsPrefabParent: 1

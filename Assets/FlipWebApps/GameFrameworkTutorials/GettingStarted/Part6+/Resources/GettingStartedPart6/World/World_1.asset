@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6001af58714da2f42909675f17930b5d, type: 3}
+  m_Name: World_1
+  m_EditorClassIdentifier: 
+  _localisableName:
+    _isLocalised: 1
+    _data: 
+  _localisableDescription:
+    _isLocalised: 0
+    _data: 
+  _startUnlocked: 1
+  _unlockWithCoins: 1
+  _unlockWithPayment: 0
+  _unlockWithCompletion: 0
+  _valueToUnlock: -1
+  _localisablePrefabs: []
+  _localisableSprites: []
+  _variables:
+    _boolVariables: []
+    _intVariables: []
+    _floatVariables: []
+    _stringVariables: []
+  Difficulty: Easy

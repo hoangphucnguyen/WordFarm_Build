@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: ea9b0799e8ffba048aa056f8d35fea56
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BoundButtonMediumBlue
+    21300002: BoundButtonMediumYellow
+    21300004: ButtonImagesMediumArrow
+    21300006: ButtonImagesMediumCancel
+    21300008: ButtonImagesMediumFacebook
+    21300010: ButtonImagesMediumHome
+    21300012: ButtonImagesMediumLike
+    21300014: ButtonImagesMediumOk
+    21300016: ButtonImagesMediumPlay
+    21300018: ButtonImagesMediumReload
+    21300020: ButtonImagesMediumSettings
+    21300022: IconCoinLarge
+    21300024: IconCoinSmall
+    21300026: IconLock
+    21300028: NestedPanel
+    21300030: NestedPanelHighlighted
+    21300032: Panel
+    21300034: SquareButtonLargeBlue
+    21300036: SquareButtonLargeGrey
+    21300038: StarActiveBig
+    21300040: StarActiveSmall
+    21300042: StarInactiveBig
+    21300044: StarInactiveSmall
+    21300046: RoundButtonMedimBlue
+    21300048: RoundButtonMediumYellow
+    21300050: RoundButtonMediumBlue
+    21300052: ButtonSquareLargeGreen
+    21300054: ButtonSquareLargeOrange
+    21300056: RoundButtonMediumGreen
+    21300058: RoundButtonMediumRed
+    21300060: TitleBar
+    21300062: UIScrollBar
+    21300064: SquareButtonLargeGreen
+    21300066: SquareButtonLargeOrange
+    21300068: RoundButtonMediumOrange
+    21300070: LockBig
+    21300072: IconLockBig
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SquareButtonLargeBlue
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 410
+        width: 199
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5025126, y: 0.5}
+      border: {x: 98, y: 49, z: 98, w: 49}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareButtonLargeGrey
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 208
+        width: 199
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 98, y: 48, z: 98, w: 48}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareButtonLargeOrange
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 308
+        width: 199
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5025126, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,906 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E06734F-EF45-874D-CDEA-768470186A69}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>iOS:9</UnityBuildTarget>
+    <UnityVersion>2017.2.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_1;UNITY_2017_2;UNITY_2017;UNITY_PURCHASING;UNITY_ANALYTICS;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;PREFS_EDITOR;BEAUTIFUL_TRANSITIONS;FACEBOOK_SDK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_1;UNITY_2017_2;UNITY_2017;UNITY_PURCHASING;UNITY_ANALYTICS;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;PREFS_EDITOR;BEAUTIFUL_TRANSITIONS;FACEBOOK_SDK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Timeline">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomation">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GoogleAudioSpatializer">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.JarResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.IOSResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparks.Api">
+      <HintPath>Assets/GameSparks/Plugins/GameSparks.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparksRT">
+      <HintPath>Assets/GameSparks/Plugins/GameSparksRT.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparks">
+      <HintPath>Assets/GameSparks/Plugins/GameSparks.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle_GameSparks">
+      <HintPath>Assets/GameSparks/Plugins/BouncyCastle_GameSparks.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Cloud.Analytics.Util">
+      <HintPath>Assets/Plugins/UnityEngine.Cloud.Analytics.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Cloud.Analytics">
+      <HintPath>Assets/Plugins/UnityEngine.Cloud.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TexturePackerImporter">
+      <HintPath>Assets/codeandweb.com/Editor/TexturePackerImporter.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>Assets/Firebase/Plugins/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets/Firebase/Plugins/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Messaging">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Editor">
+      <HintPath>Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.CognitoIdentity">
+      <HintPath>Assets/AWSSDK/AWSSDK.CognitoIdentity.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.Core">
+      <HintPath>Assets/AWSSDK/AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.S3">
+      <HintPath>Assets/AWSSDK/AWSSDK.S3.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.SecurityToken">
+      <HintPath>Assets/AWSSDK/AWSSDK.SecurityToken.dll</HintPath>
+    </Reference>
+    <Reference Include="TUIOsharp">
+      <HintPath>Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="OSCsharp">
+      <HintPath>Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Analytics">
+      <HintPath>Assets/Fabric/Managed/Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Validator">
+      <HintPath>Assets/Fabric/Managed/Validator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>/Users/ipetrov/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>/Users/ipetrov/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>/Users/ipetrov/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>/Users/ipetrov/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/Editor/UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>/Users/ipetrov/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>/Users/ipetrov/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="WordFarm.Plugins.csproj">
+      <Project>{74B17FF0-7C67-55B6-3BD0-1EC6051B3B54}</Project>
+      <Name>WordFarm.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="WordFarm.Plugins.unityproj">
+      <Project>{74B17FF0-7C67-55B6-3BD0-1EC6051B3B54}</Project>
+      <Name>WordFarm.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="WordFarm.csproj">
+      <Project>{EC512ACA-8DA0-F82E-7F44-F1EAE25B9DAA}</Project>
+      <Name>WordFarm</Name>
+    </ProjectReference>
+    <ProjectReference Include="WordFarm.Editor.Plugins.csproj">
+      <Project>{C2768993-8A4F-3516-FB31-EBEDF9818C4F}</Project>
+      <Name>WordFarm.Editor.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AdColony\Editor\ADCDependencies.cs" />
+    <Compile Include="Assets\AdColony\Editor\ADCManifestProcessor.cs" />
+    <Compile Include="Assets\AdColony\Editor\ADCMenu.cs" />
+    <Compile Include="Assets\AdColony\Editor\ADCPluginInfo.cs" />
+    <Compile Include="Assets\AdColony\Editor\ADCPostBuildProcessor.cs" />
+    <Compile Include="Assets\Branch\Editor\BranchEditor.cs" />
+    <Compile Include="Assets\Branch\Editor\BranchPostProcessBuild.cs" />
+    <Compile Include="Assets\Editor\iOSLanguagePostProcessor.cs" />
+    <Compile Include="Assets\Editor\iOSPostProcessor.cs" />
+    <Compile Include="Assets\Fabric\Editor\CommonBuild\FabricCommonBuild.cs" />
+    <Compile Include="Assets\Fabric\Editor\FabricSetup.cs" />
+    <Compile Include="Assets\Fabric\Editor\FabricUtils.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\API\AsyncV1.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\API\Parser.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\API\V1.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Controller\KitController.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Controller\KitInstallationChecker.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Controller\KitUtils.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Controller\PluginController.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Detail\AsyncTaskRunner.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Detail\AsyncTaskRunnerBuilder.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Detail\Runner.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Detail\Strings.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Detail\TimeUtils.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Editor.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Images\Loader.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Model\App.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Model\ImportedKit.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Model\KitStatus.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Model\Organization.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Model\Settings.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Net\Constants.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Net\OAuth\Client.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Net\Utils.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\Resources\Manager.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\Animation\Driver.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\ConflictResolutionPage.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\KitSelectionPage.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\LoginPage.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\ManualInitializationPage.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\OrganizationsPage.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\Page.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\Render.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\Templates\InstructionsPage.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\Templates\PrefabPage.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\UpdatePage.cs" />
+    <Compile Include="Assets\Fabric\Editor\GUI\View\ValidationPage.cs" />
+    <Compile Include="Assets\Fabric\Editor\Info.cs" />
+    <Compile Include="Assets\Fabric\Editor\Postbuild\FabricBuildEventAndroid.cs" />
+    <Compile Include="Assets\Fabric\Editor\Postbuild\FabricPostBuildiOS.cs" />
+    <Compile Include="Assets\Fabric\Editor\Postbuild\PostBuildiOS.cs" />
+    <Compile Include="Assets\Fabric\Editor\Prebuild\AndroidBuildPropertiesManager.cs" />
+    <Compile Include="Assets\Fabric\Editor\Prebuild\FabricAndroidPrebuild.cs" />
+    <Compile Include="Assets\Fabric\Editor\Prebuild\PropertiesWriter.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\AssetCatalog.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\JsonParser.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Elements.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Lexer.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Objects.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Parser.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Sections.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Serializer.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Utils.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBXProject.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBXProjectData.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PlistParser.cs" />
+    <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\Custodian.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphLegacy.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphManager.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphObject.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphResolver.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\FabricInstaller.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\FileUtils.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\PeriodicAnalyticsPinger.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\PeriodicUpdateChecker.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\PeriodicUpdateManager.cs" />
+    <Compile Include="Assets\Fabric\Editor\Update\TimeoutWebClient.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\CrashlyticsSetup.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\GUI\Controller\Controller.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\GUI\CrashlyticsMenuItems.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\GUI\View\DashboardPage.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\Info.cs" />
+    <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\Postbuild\CrashlyticsPostBuildiOS.cs" />
+    <Compile Include="Assets\Firebase\Editor\AppDeps.cs" />
+    <Compile Include="Assets\Firebase\Editor\MessagingDeps.cs" />
+    <Compile Include="Assets\FlipWebApps\BeautifulTransitions\Scripts\Editor\EditorMenuItems.cs" />
+    <Compile Include="Assets\FlipWebApps\BeautifulTransitions\Scripts\Transitions\Editor\TransitionSettingsDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Animation\Editor\GameObjectToGameObjectAnimationDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Debugging\Components\Editor\CheatFunctionsWindow.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\EditorExtras\Editor\ConditionalHidePropertyDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\EditorExtras\Editor\EditorHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\EditorExtras\Editor\GuiStyles.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\EditorExtras\Editor\HelpBoxDecoratorDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\EditorExtras\Editor\PlayerSettingsHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\FreePrize\Components\Editor\FreePrizeManagerEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\Editor\CodeComments.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\Editor\ComponentsHelpWindow.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\Editor\Create.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\Editor\IntegrationsWindow.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\Editor\MenuItems.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\Editor\ModelDetails.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\Editor\OpenWith.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\Editor\SelectItems.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\Editor\StartUpWindow.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Editor\AbstractClasses\RunOnStateEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Editor\MinMaxDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Editor\MinMaxfDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Editor\BuyCharacterButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Editor\CharacterButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Editor\CharacterEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Editor\CharacterGameItemContextEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Editor\EnableBasedUponCharacterEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Editor\InstantiateCharacterPrefabEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Editor\SetImageToCharacterSpriteEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Editor\SetSpriteRendererToCharacterSpriteEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Editor\ShowCharacterPrefabEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Editor\UnlockCharacterButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\Editor\AbstractClasses\ColliderEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\Editor\CoinColliderEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\Editor\GenericColliderEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\Editor\HealthColliderEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\Editor\LoseLevelColliderEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\Editor\PointsColliderEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\Editor\StarColliderEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\Editor\WinLevelColliderEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Editor\GameManagerEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\AbstractClasses\BuyGameItemButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\AbstractClasses\EnableBasedUponGameItemEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\AbstractClasses\GameItemButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\AbstractClasses\GameItemContextBaseEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\AbstractClasses\InstantiatePrefabEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\AbstractClasses\SetSpriteEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\AbstractClasses\ShowPrefabEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\AbstractClasses\UnlockGameItemButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\GameItemContextDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\GameItemEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\GameItemExtensionEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\Tests\GameItemManagerTests.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Editor\VariablesObjectDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GenericGameItems\Editor\GenericGameItemEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GenericGameItems\Editor\GenericGameItemManagerInspector.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Editor\BuyLevelButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Editor\EnableBasedUponLevelEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Editor\InstantiateLevelPrefabEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Editor\LevelButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Editor\LevelEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Editor\LevelGameItemContextEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Editor\SetImageToLevelSpriteEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Editor\SetSpriteRendererToLevelSpriteEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Editor\ShowLevelPrefabEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Editor\UnlockLevelButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Editor\EnableBasedUponPlayerEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Editor\InstantiatePlayerPrefabEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Editor\PlayerButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Editor\PlayerEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Editor\PlayerGameItemContextEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Editor\SetImageToPlayerSpriteEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Editor\SetSpriteRendererToPlayerSpriteEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Editor\ShowPlayerPrefabEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Variables\Editor\AbstractClasses\VariableObjectDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Editor\BuyWorldButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Editor\EnableBasedUponWorldEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Editor\InstantiateWorldPrefabEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Editor\SetImageToWorldSpriteEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Editor\SetSpriteRendererToWorldSpriteEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Editor\ShowWorldPrefabEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Editor\UnlockWorldButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Editor\WorldButtonEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Editor\WorldEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Editor\WorldGameItemContextEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Editor\AbstractClasses\LocalisableObjectDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Editor\LocalisablePrefabDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Editor\LocalisableSpriteDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Editor\LocalisableTextDrawer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Editor\LocalisationEditorWindow.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Messaging\Editor\MessagesWindow.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Messaging\Editor\MessagingTests.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Editor\GameOverEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Weighting\Editor\DistanceWeightedItemsTest.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFrameworkExtras\Themes\Scripts\Editor\ThemesWindow.cs" />
+    <Compile Include="Assets\FlipWebApps\PrefsEditor\Editor\Plist.cs" />
+    <Compile Include="Assets\FlipWebApps\PrefsEditor\Editor\PrefsEditorWindow.cs" />
+    <Compile Include="Assets\FlipWebApps\PrefsEditor\Editor\SecurePlayerPrefsTests.cs" />
+    <Compile Include="Assets\FlipWebApps\ProPooling\Scripts\Editor\PoolManagerEditor.cs" />
+    <Compile Include="Assets\FlipWebApps\ProPooling\Scripts\Editor\PoolManagerTests.cs" />
+    <Compile Include="Assets\FlipWebApps\ProPooling\Scripts\Editor\PoolTests.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksEditorFormUpload.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksPopUp.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksRestApi.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksRestWindow.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksSettingsEditor.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksUnityInspector.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Editor\AdMobDependencies.cs" />
+    <Compile Include="Assets\Project\Scripts\Editor\ButtonsEditorScript.cs" />
+    <Compile Include="Assets\Project\Scripts\Editor\CopyComponents.cs" />
+    <Compile Include="Assets\Project\Scripts\Editor\FindMissingScripts.cs" />
+    <Compile Include="Assets\Project\Scripts\Editor\FindObjects.cs" />
+    <Compile Include="Assets\Project\Scripts\Editor\SearchForComponents.cs" />
+    <Compile Include="Assets\Project\Scripts\Editor\SelectByComponent.cs" />
+    <Compile Include="Assets\Switch\Editor\CreateSwtich.cs" />
+    <Compile Include="Assets\Switch\Editor\SwitchEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Behaviors\Visualizer\TouchVisualizerEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\Base\PinnedTransformGestureBaseEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\Base\TransformGestureBaseEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\FlickGestureEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\GestureEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\LongPressGestureEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\PinnedTransformGestureEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\PressGestureEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\ReleaseGestureEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\ScreenTransformGestureEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\TapGestureEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Gestures\TransformGestureEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\InputSources\InputSourceEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\InputSources\MobileInputEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\InputSources\MouseInputEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\InputSources\StandardInputEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Layers\CameraLayer2DEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Layers\FullscreenLayerEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Layers\UILayerEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\TouchManagerEditor.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Utils\GUIElements.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Utils\PropertyDrawers\NullToggleDrawer.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Utils\PropertyDrawers\TagsDrawer.cs" />
+    <Compile Include="Assets\TouchScript\Editor\Utils\PropertyDrawers\ToggleLeftDrawer.cs" />
+    <Compile Include="Assets\TouchScript\Modules\TUIO\Editor\InputSources\TuioInputEditor.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Editor\AccordionElementEditor.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Editor\BoxSliderEditor.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Editor\CanvasGroupActivator.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Editor\CompressionTests.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Editor\NonDrawingGraphicEditor.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Editor\TextPicEditor.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Editor\uGUITools.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Editor\UIExtensionsMenuOptions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AdColony\Editor\AndroidManifestTemplate.xml" />
+    <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+    <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+    <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+    <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Examples\License.txt" />
+    <None Include="Assets\Fabric\Managed\Certificates\FabricPublic.XML" />
+    <None Include="Assets\Fabric\NOTICE.txt" />
+    <None Include="Assets\Fabric\THIRDPARTYLICENSE.TXT" />
+    <None Include="Assets\FacebookSDK\link.xml" />
+    <None Include="Assets\Firebase\Editor\FirebaseMessaging.txt" />
+    <None Include="Assets\Firebase\Plugins\link.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-messaging-unity\maven-metadata.xml" />
+    <None Include="Assets\FlipWebApps\BeautifulTransitions\Readme - Beautiful Transitions.txt" />
+    <None Include="Assets\FlipWebApps\BeautifulTransitions\Resources\Shaders\FadeCamera.shader" />
+    <None Include="Assets\FlipWebApps\BeautifulTransitions\Resources\Shaders\WipeCamera.shader" />
+    <None Include="Assets\FlipWebApps\BeautifulTransitions\Resources\Shaders\WipeScreen.shader" />
+    <None Include="Assets\FlipWebApps\GameFramework\Important v4 Upgrade Notes.txt" />
+    <None Include="Assets\FlipWebApps\GameFramework\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFramework\Release Notes.txt" />
+    <None Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\Components\GradientBackgroundShader.shader" />
+    <None Include="Assets\FlipWebApps\GameFramework\_Demo\About\ReadMe.txt" />
+    <None Include="Assets\FlipWebApps\GameFramework\_Demo\GameStructure\Models\Credits.txt" />
+    <None Include="Assets\FlipWebApps\GameFramework\_Demo\GameStructure\ReadMe.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkExtras\Themes\Cartoon\Fonts\Komika.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkExtras\Themes\Space\Fonts\FEATURES.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkExtras\Themes\Space\Fonts\FONTLOG.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkExtras\Themes\Space\Fonts\Xolonium.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkPlayMakerExtensions\ALPHA - SAY WHAT YOU NEED.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkPlayMakerExtensions\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\Dialogs\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\FreePrize\Part1\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\FreePrize\Part2\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\FullGames\2DInfiniteRunner\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part1\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part2\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part3\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part4\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part5-SpaceTheme\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part5\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part6+\Readme.txt" />
+    <None Include="Assets\FlipWebApps\GameFrameworkTutorials\Localisation\Readme.txt" />
+    <None Include="Assets\FlipWebApps\Important v4 Upgrade Notes.txt" />
+    <None Include="Assets\FlipWebApps\PrefsEditor\Readme - Prefs Editor.txt" />
+    <None Include="Assets\FlipWebApps\ProPooling\Readme - Pro Pooling.txt" />
+    <None Include="Assets\FlipWebApps\Readme.txt" />
+    <None Include="Assets\FlipWebApps\Release Notes.txt" />
+    <None Include="Assets\GameSparks\Plugins\GameSparks.Api.XML" />
+    <None Include="Assets\GameSparks\Plugins\GameSparks.XML" />
+    <None Include="Assets\GameSparks\Plugins\GameSparksRT.xml" />
+    <None Include="Assets\GameSparks\Plugins\Metro\GameSparks.XML" />
+    <None Include="Assets\GameSparks\Plugins\Metro\GameSparksRT.xml" />
+    <None Include="Assets\GameSparks\Plugins\UWP\GameSparks.XML" />
+    <None Include="Assets\GameSparks\Plugins\WP8\GameSparks.XML" />
+    <None Include="Assets\GameSparks\README.txt" />
+    <None Include="Assets\GameSparks\Thank you for joining GameSparks.txt" />
+    <None Include="Assets\GameSparks\link.xml" />
+    <None Include="Assets\PaperPlaneTools\AlertSkin\Skin_1\info\art.txt" />
+    <None Include="Assets\PaperPlaneTools\AlertSkin\Skin_1\info\fonts.txt" />
+    <None Include="Assets\PaperPlaneTools\Documentation\AlertDocumentation.txt" />
+    <None Include="Assets\PaperPlaneTools\Documentation\RateBoxDocumentation.txt" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver.txt" />
+    <None Include="Assets\PlayServicesResolver\proguard-messaging-workaround.txt" />
+    <None Include="Assets\PlayServicesResolver\proguard-unity.txt" />
+    <None Include="Assets\Plugins\Android\AN_Res\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\AN_Res\res\values\analytics.xml" />
+    <None Include="Assets\Plugins\Android\AN_Res\res\values\ids.xml" />
+    <None Include="Assets\Plugins\Android\AN_Res\res\values\version.xml" />
+    <None Include="Assets\Plugins\Android\AN_Res\res\xml\file_paths.xml" />
+    <None Include="Assets\Plugins\Android\AdColony\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\Firebase\res\values\google-services.xml" />
+    <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\answers\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\beta\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\crashlytics-wrapper\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\crashlytics\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\crashlytics\NOTICE.txt" />
+    <None Include="Assets\Plugins\Android\crashlytics\THIRDPARTYLICENSE.txt" />
+    <None Include="Assets\Plugins\Android\fabric-init\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\fabric\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\fabric\NOTICE.txt" />
+    <None Include="Assets\Plugins\Android\fabric\THIRDPARTYLICENSE.txt" />
+    <None Include="Assets\Plugins\Android\fabric\Template-AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\fabric\res\values\strings.xml" />
+    <None Include="Assets\Plugins\Branch\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Documentation\AN_VersionNotes.txt" />
+    <None Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Documentation\ReadMe.txt" />
+    <None Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Documentation\ReadMe.txt" />
+    <None Include="Assets\Plugins\StansAssets\Modules\IOSNative\Documentation\ISN_VersionNotes.txt" />
+    <None Include="Assets\Plugins\StansAssets\Modules\IOSNative\Documentation\ReadMe.txt" />
+    <None Include="Assets\Plugins\StansAssets\Modules\ManifestManager\default.xml" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\AndroidManifest.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\values\analytics.xml" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\values\ids.xml" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\values\version.xml" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\xml\file_paths.xml" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AndroidManifest.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\androidnative.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\androidnative.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\app_licensing\an_licensing_library.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\billing\an_billing.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\billing\an_billing.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-analytics-impl.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-analytics.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-common.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-dynamic-links.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-iid.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\an_fitness.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\an_fitness.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\play-services-fitness.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\play-services-fitness.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\an_googleplay.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\an_googleplay.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads-lite.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads-lite.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics-impl.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics-impl.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-appinvite.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-appinvite.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth-base.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth-base.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-base.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-base.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-basement.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-basement.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-drive.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-drive.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-games.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-games.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-gcm.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-gcm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-iid.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-iid.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-plus.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-plus.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-safetynet.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-safetynet.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-tasks.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-tasks.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\an_sa_soomla.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\android-support-v4.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\image-chooser-library-1.6.0.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\support-v4-24.1.1.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\social\an_social.jar.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\social\an_social.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\social\twitter4j-core-4.0.4.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_AppController.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Camera.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_CloudKit.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Contacts.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_DFContinuousForceTouchGestureRecognizer.h.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_DFContinuousForceTouchGestureRecognizer.m.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_FilePicker.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_ForceTouch.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_GameCenter.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_GestureRecognizer.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_InApp.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Media.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.h.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Privacy.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_RemoteNotifications.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_ReplayKit.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_SocialGate.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Soomla.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_UserNotifications.h.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_UserNotifications.mm.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\Versions\AN_VersionInfo.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\Versions\ISN_VersionInfo.txt" />
+    <None Include="Assets\Plugins\StansAssets\Support\Versions\MSP_VersionInfo.txt" />
+    <None Include="Assets\Plugins\UnbiasedTime\UnbiasedTime_UnityPro.txt" />
+    <None Include="Assets\Plugins\UnityPurchasing\Android\proguard-user.txt.OPTIONAL.txt" />
+    <None Include="Assets\Plugins\UnityPurchasing\script\link.xml" />
+    <None Include="Assets\Plugins\readme.txt" />
+    <None Include="Assets\Resources\awsconfig.xml" />
+    <None Include="Assets\Switch\Resources\Textures\README.txt" />
+    <None Include="Assets\TouchScript\Examples\_misc\Shaders\BorderDiffuse.shader" />
+    <None Include="Assets\TouchScript\Examples\_misc\Shaders\UnlitColor.shader" />
+    <None Include="Assets\TouchScript\Shaders\DebugDepthTest.shader" />
+    <None Include="Assets\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
+    <None Include="Assets\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
+    <None Include="Assets\TouchScript\Shaders\DebugNoDepthTest.shader" />
+    <None Include="Assets\TouchScript\license.txt" />
+    <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+    <None Include="Assets\codeandweb.com\Readme.txt" />
+    <None Include="Assets\link.xml" />
+    <None Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\SurrogatesReadMe.txt" />
+    <None Include="Assets\unity-ui-extensions\Shaders\SoftMaskShader.shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UIAdditive.shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UIImageCrop.shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UILinearDodge.shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UIMultiply.shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UIParticleHidden.shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UISoftAdditive.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

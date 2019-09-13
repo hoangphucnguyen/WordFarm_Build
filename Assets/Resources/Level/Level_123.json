@@ -1,0 +1,46 @@
+{
+  "level": "123",
+  "preview":"stewa",
+  "words": [
+    {
+      "word": "waste",
+      "length": 5
+    },
+    {
+      "word": "eat",
+      "length": 3
+    },
+    {
+      "word": "stew",
+      "length": 4
+    },
+    {
+      "word": "east",
+      "length": 4
+    },    
+    {
+      "word": "west",
+      "length": 4
+    },        
+    {
+      "word": "wet",
+      "length": 3
+    },       
+    {
+      "word": "tea",
+      "length": 3
+    },        
+    {
+      "word": "sea",
+      "length": 3
+    },        
+    {
+      "word": "sweat",
+      "length": 5
+    },
+    {
+      "word": "seat",
+      "length": 4
+    }
+  ]
+}

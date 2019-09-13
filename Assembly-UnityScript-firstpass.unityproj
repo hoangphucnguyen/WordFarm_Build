@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B56FC68D-F502-5D2D-0C55-FC14FC406B78}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;PREFS_EDITOR;FACEBOOK_SDK;BEAUTIFUL_TRANSITIONS;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\StansAssets\Modules\AndroidNative\xExample\Scripts\JS\JSUseExample.js" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\JSExample\JSCall.js" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\MSP_VersionInfo.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\billing\an_billing.jar.txt" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\FlipWebApps\GameFramework\Readme.txt" />
+     <None Include="Assets\GameSparks\Plugins\GameSparksRT.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_DFContinuousForceTouchGestureRecognizer.h.txt" />
+     <None Include="Assets\TouchScript\Shaders\DebugDepthTest.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIAdditive.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-plus.jar.txt" />
+     <None Include="Assets\GameSparks\Plugins\Metro\GameSparksRT.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-gcm.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-iid.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_InApp.mm.txt" />
+     <None Include="Assets\Fabric\NOTICE.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\Dialogs\Readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\values\analytics.xml" />
+     <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-common.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-appinvite.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Documentation\ReadMe.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkExtras\Themes\Space\Fonts\FEATURES.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\AN_VersionInfo.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-games.jar.txt" />
+     <None Include="Assets\Plugins\Android\AdColony\AndroidManifest.xml" />
+     <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_GestureRecognizer.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\IOSNative\Documentation\ISN_VersionNotes.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\social\an_social.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\support-v4-24.1.1.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\android-support-v4.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Privacy.mm.txt" />
+     <None Include="Assets\Plugins\Android\fabric\AndroidManifest.xml" />
+     <None Include="Assets\Firebase\Plugins\link.xml" />
+     <None Include="Assets\FlipWebApps\BeautifulTransitions\Readme - Beautiful Transitions.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\an_googleplay.jar.txt" />
+     <None Include="Assets\FlipWebApps\GameFramework\_Demo\GameStructure\Models\Credits.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_DFContinuousForceTouchGestureRecognizer.m.txt" />
+     <None Include="Assets\PaperPlaneTools\AlertSkin\Skin_1\info\fonts.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part6+\Readme.txt" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UISoftAdditive.shader" />
+     <None Include="Assets\FlipWebApps\BeautifulTransitions\Resources\Shaders\FadeCamera.shader" />
+     <None Include="Assets\FlipWebApps\Important v4 Upgrade Notes.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\image-chooser-library-1.6.0.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-games.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\play-services-fitness.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\FreePrize\Part1\Readme.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics\NOTICE.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_FilePicker.mm.txt" />
+     <None Include="Assets\FlipWebApps\GameFramework\Important v4 Upgrade Notes.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_CloudKit.mm.txt" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIParticleHidden.shader" />
+     <None Include="Assets\TouchScript\license.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-drive.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\FreePrize\Part2\Readme.txt" />
+     <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
+     <None Include="Assets\unity-ui-extensions\Shaders\SoftMaskShader.shader" />
+     <None Include="Assets\Plugins\Android\crashlytics-wrapper\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_GameCenter.mm.txt" />
+     <None Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\SurrogatesReadMe.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_SocialGate.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\play-services-fitness.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\ManifestManager\default.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_RemoteNotifications.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Documentation\AN_VersionNotes.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part3\Readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics.jar.txt" />
+     <None Include="Assets\PlayServicesResolver\proguard-messaging-workaround.txt" />
+     <None Include="Assets\FlipWebApps\GameFramework\Release Notes.txt" />
+     <None Include="Assets\PaperPlaneTools\Documentation\AlertDocumentation.txt" />
+     <None Include="Assets\FlipWebApps\Readme.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\FullGames\2DInfiniteRunner\Readme.txt" />
+     <None Include="Assets\Plugins\readme.txt" />
+     <None Include="Assets\Plugins\Android\fabric-init\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-analytics-impl.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-gcm.txt" />
+     <None Include="Assets\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
+     <None Include="Assets\FlipWebApps\GameFramework\_Demo\GameStructure\ReadMe.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkExtras\Themes\Space\Fonts\FONTLOG.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part2\Readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\androidnative.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Camera.mm.txt" />
+     <None Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\Components\GradientBackgroundShader.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth.jar.txt" />
+     <None Include="Assets\PaperPlaneTools\Documentation\RateBoxDocumentation.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\social\an_social.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-drive.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AndroidManifest.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads-lite.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-analytics.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-base.txt" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\xml\file_paths.xml" />
+     <None Include="Assets\Plugins\UnbiasedTime\UnbiasedTime_UnityPro.txt" />
+     <None Include="Assets\FlipWebApps\GameFramework\_Demo\About\ReadMe.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\androidnative.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part4\Readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\an_googleplay.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth-base.jar.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkExtras\Themes\Cartoon\Fonts\Komika.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkPlayMakerExtensions\Readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Contacts.mm.txt" />
+     <None Include="Assets\TouchScript\Shaders\DebugNoDepthTest.shader" />
+     <None Include="Assets\FlipWebApps\BeautifulTransitions\Resources\Shaders\WipeScreen.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\app_licensing\an_licensing_library.txt" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIImageCrop.shader" />
+     <None Include="Assets\GameSparks\Thank you for joining GameSparks.txt" />
+     <None Include="Assets\PaperPlaneTools\AlertSkin\Skin_1\info\art.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.mm.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics\THIRDPARTYLICENSE.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_ForceTouch.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\billing\an_billing.txt" />
+     <None Include="Assets\FlipWebApps\PrefsEditor\Readme - Prefs Editor.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkPlayMakerExtensions\ALPHA - SAY WHAT YOU NEED.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\ids.xml" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UILinearDodge.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\AndroidManifest.txt" />
+     <None Include="Assets\GameSparks\README.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Media.mm.txt" />
+     <None Include="Assets\Switch\Resources\Textures\README.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-basement.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part5\Readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.h.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\ISN_VersionInfo.txt" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-messaging-unity\maven-metadata.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-iid.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Documentation\ReadMe.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Plugins\Android\answers\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-basement.jar.txt" />
+     <None Include="Assets\Plugins\Android\fabric\NOTICE.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\social\twitter4j-core-4.0.4.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_UserNotifications.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics-impl.txt" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth-base.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\an_fitness.txt" />
+     <None Include="Assets\PlayServicesResolver\proguard-unity.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-plus.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads.txt" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part5-SpaceTheme\Readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\an_sa_soomla.txt" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\Template-AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-appinvite.jar.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Soomla.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\IOSNative\Documentation\ReadMe.txt" />
+     <None Include="Assets\Firebase\Editor\FirebaseMessaging.txt" />
+     <None Include="Assets\FlipWebApps\ProPooling\Readme - Pro Pooling.txt" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIMultiply.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-iid.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_ReplayKit.mm.txt" />
+     <None Include="Assets\FacebookSDK\link.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads-lite.jar.txt" />
+     <None Include="Assets\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\FlipWebApps\GameFrameworkExtras\Themes\Space\Fonts\Xolonium.txt" />
+     <None Include="Assets\GameSparks\link.xml" />
+     <None Include="Assets\TouchScript\Examples\_misc\Shaders\UnlitColor.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_AppController.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_UserNotifications.h.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\values\version.xml" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\analytics.xml" />
+     <None Include="Assets\Plugins\Android\fabric\res\values\strings.xml" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-base.jar.txt" />
+     <None Include="Assets\Plugins\Android\beta\AndroidManifest.xml" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\Localisation\Readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\xml\file_paths.xml" />
+     <None Include="Assets\TouchScript\Examples\_misc\Shaders\BorderDiffuse.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\values\ids.xml" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\version.xml" />
+     <None Include="Assets\FlipWebApps\GameFrameworkTutorials\GettingStarted\Part1\Readme.txt" />
+     <None Include="Assets\FlipWebApps\BeautifulTransitions\Resources\Shaders\WipeCamera.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics\AndroidManifest.xml" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics-impl.jar.txt" />
+     <None Include="Assets\AdColony\Editor\AndroidManifestTemplate.xml" />
+     <None Include="Assets\codeandweb.com\Readme.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\AndroidManifest.xml" />
+     <None Include="Assets\FlipWebApps\Release Notes.txt" />
+     <None Include="Assets\Plugins\Android\fabric\THIRDPARTYLICENSE.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\an_fitness.jar.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="Analytics">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Fabric/Managed/Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Validator">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Fabric/Managed/Validator.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.App">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Messaging">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Firebase/Plugins/Firebase.Messaging.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Firebase/Plugins/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Firebase/Plugins/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="BouncyCastle_GameSparks">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/GameSparks/Plugins/BouncyCastle_GameSparks.dll</HintPath>
+ </Reference>
+ <Reference Include="GameSparks.Api">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/GameSparks/Plugins/GameSparks.Api.dll</HintPath>
+ </Reference>
+ <Reference Include="GameSparks">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/GameSparks/Plugins/GameSparks.dll</HintPath>
+ </Reference>
+ <Reference Include="GameSparksRT">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/GameSparks/Plugins/GameSparksRT.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Cloud.Analytics">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Plugins/UnityEngine.Cloud.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Cloud.Analytics.Util">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Plugins/UnityEngine.Cloud.Analytics.Util.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Facebook/Facebook.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>/Users/ipetrov/Unity/WordFarm/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

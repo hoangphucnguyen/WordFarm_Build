@@ -1,0 +1,38 @@
+{
+  "level": "93",
+  "preview":"parst",
+  "words": [
+    {
+      "word": "strap",
+      "length": 5
+    },
+    {
+      "word": "part",
+      "length": 4
+    },
+    {
+      "word": "trap",
+      "length": 4
+    },
+    {
+      "word": "art",
+      "length": 3
+    },  
+    {
+      "word": "past",
+      "length": 4
+    }, 
+    {
+      "word": "rat",
+      "length": 3
+    },  
+    {
+      "word": "tar",
+      "length": 3
+    },      
+    {
+      "word": "sap",
+      "length": 3
+    }
+  ]
+}

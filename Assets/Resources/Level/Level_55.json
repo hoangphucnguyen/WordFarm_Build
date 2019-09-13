@@ -1,0 +1,55 @@
+{
+  "level": "55",
+  "preview":"taple",
+  "words": [
+    {
+      "word": "plate",
+      "length": 5
+    },
+    {
+      "word": "petal",
+      "length": 5
+    },
+    {
+      "word": "leap",
+      "length": 4
+    },
+    {
+      "word": "late",
+      "length": 4
+    },
+    {
+      "word": "pale",
+      "length": 4
+    },    
+    {
+      "word": "plea",
+      "length": 4
+    },    
+    {
+      "word": "ale",
+      "length": 3
+    },
+    {
+      "word": "eat",
+      "length": 3
+    },
+    {
+      "word": "tea",
+      "length": 3
+    },
+    {
+      "word": "lap",
+      "length": 3
+    },
+    {
+      "word": "pet",
+      "length": 3
+    },
+    {
+      "word": "pal",
+      "length": 3
+    }  
+    
+  ]
+}

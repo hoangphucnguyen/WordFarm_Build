@@ -1,0 +1,30 @@
+{
+  "level": "42",
+  "preview":"ursne",
+  "words": [
+    {
+      "word": "nurse",
+      "length": 5
+    },
+    {
+      "word": "rune",
+      "length": 4
+    },
+    {
+      "word": "sure",
+      "length": 4
+    },
+    {
+      "word": "run",
+      "length": 3
+    } ,
+    {
+      "word": "urn",
+      "length": 3
+    },
+    {
+      "word": "sun",
+      "length": 3
+    }       
+  ]
+}

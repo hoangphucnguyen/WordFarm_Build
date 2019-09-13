@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.unity3d.player" android:versionCode="1" android:versionName="1.0">
+  <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
+  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="26" />
+  <application tools:replace="android:label,android:icon,android:theme" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:icon="@mipmap/app_icon" android:name="io.branch.anroidthirdparty.BranchCustomApplication" android:largeHeap="true">
+    <service android:name="com.google.firebase.messaging.MessageForwardingService" android:exported="false" />
+    <service android:name="com.amazonaws.unity.GCMIntentService" />
+    <service android:name="com.androidnative.features.notifications.LocalNotificationService" />
+    <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="\ 1862708270718090" />
+    <meta-data android:name="io.branch.sdk.TestMode" android:value="false" />
+    <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_jdsVFa74rqI2nkWcfYUlViigCsfuniaQ" />
+    <provider android:name="com.facebook.FacebookContentProvider" android:authorities="com.facebook.app.FacebookContentProvider1862708270718090" android:exported="true" />
+    <receiver android:name="com.androidnative.features.notifications.LocalNotificationReceiver" android:enabled="true" android:exported="true">
+      <intent-filter>
+        <action android:name="com.androidnative.local.intent.OPEN" />
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="io.branch.referral.InstallListener" android:exported="true">
+      <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER" />
+      </intent-filter>
+    </receiver>
+    <activity android:name="io.branch.anroidthirdparty.BranchCustomActivity" android:launchMode="singleTask" android:label="@string/app_name" android:icon="@mipmap/app_icon" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+      <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="false" />
+      <intent-filter>
+        <data android:host="open" android:scheme="wordfarm" />
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+      </intent-filter>
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="https" android:host="bnc.lt" />
+        <data android:scheme="http" android:host="wordfarm.supersocial.games" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="com.facebook.unity.FBUnityLoginActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+    <activity android:name="com.facebook.unity.FBUnityDialogsActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+    <activity android:name="com.facebook.unity.FBUnityAppLinkActivity" android:exported="true" />
+    <activity android:name="com.facebook.unity.FBUnityDeepLinkingActivity" android:exported="true" />
+    <activity android:name="com.facebook.unity.FBUnityGameRequestActivity" />
+    <activity android:name="com.facebook.unity.FBUnityCreateGameGroupActivity" />
+    <activity android:name="com.facebook.unity.FBUnityJoinGameGroupActivity" />
+    <activity android:name="com.facebook.unity.AppInviteDialogActivity" />
+    <activity android:name="com.flurry.android.FlurryAgent" android:configChanges="keyboardHidden|orientation" />
+    <activity android:name="com.androidnative.AndroidNativeProxy" android:launchMode="singleTask" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <activity android:name="com.androidnative.OAuthProxyActivity" android:launchMode="singleTask" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <activity android:name="com.androidnative.features.social.common.SocialProxyActivity" android:launchMode="singleTask" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <activity android:name="com.facebook.LoginActivity" android:label="@string/app_name" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation" />
+    <activity android:name="com.facebook.FacebookActivity" tools:replace="android:theme" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.GET_TASKS" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</manifest>

@@ -1,0 +1,25 @@
+KEY,English
+TitleMessage.Title,Title Message
+TitleMessage.Text,This uses the ShowDialogOnce component
+TitleMessage.Text2,This will only be shown one time and can be used to give players hints or information. See the _SceneScope game object.
+ScoreDisplay,Score: {0}
+L1.Name,Level 1,
+L1.Desc,x,
+L2.Name,Level 2,
+L2.Desc,x,
+L3.Name,Level 3,
+L3.Desc,x,
+L4.Name,Level 4,
+L4.Desc,x,
+L5.Name,Level 5,
+L5.Desc,x,
+L6.Name,Level 6,
+L6.Desc,x,
+L7.Name,Level 7,
+L7.Desc,x,
+L8.Name,Level 8,
+L8.Desc,x,
+L9.Name,Level 9,
+L9.Desc,x,
+L10.Name,Level 10,
+L10.Desc,x,

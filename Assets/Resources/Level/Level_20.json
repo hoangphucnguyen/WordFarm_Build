@@ -1,0 +1,22 @@
+{
+  "level": "20",
+  "preview":"emat",
+  "words": [
+    {
+      "word": "meat",
+      "length": 4
+    },
+    {
+      "word": "team",
+      "length": 4
+    },
+    {
+      "word": "eat",
+      "length": 3
+    },
+    {
+      "word": "tea",
+      "length": 3
+    }
+  ]
+}

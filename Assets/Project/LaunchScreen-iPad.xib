@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03t-vD-nJp" userLabel="SubView">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen-iPhonePortrait.png" translatesAutoresizingMaskIntoConstraints="NO" id="92O-Sw-PJ9" userLabel="Image">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="leading" secondItem="92O-Sw-PJ9" secondAttribute="leading" id="Ksk-e8-JdW"/>
+                        <constraint firstAttribute="top" secondItem="92O-Sw-PJ9" secondAttribute="top" id="OVg-9s-o42"/>
+                        <constraint firstAttribute="bottom" secondItem="92O-Sw-PJ9" secondAttribute="bottom" id="sXm-nq-rS2"/>
+                        <constraint firstAttribute="trailing" secondItem="92O-Sw-PJ9" secondAttribute="trailing" id="wza-TH-fSA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="03t-vD-nJp" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="FGm-8j-iPJ"/>
+                <constraint firstAttribute="trailing" secondItem="03t-vD-nJp" secondAttribute="trailing" id="etO-2A-Orp"/>
+                <constraint firstItem="03t-vD-nJp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mh6-IY-AE6"/>
+                <constraint firstItem="03t-vD-nJp" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sAG-pi-gr8"/>
+                <constraint firstItem="03t-vD-nJp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wWy-Vq-I9X"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="315" y="378"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LaunchScreen-iPhonePortrait.png" width="1024" height="2048"/>
+    </resources>
+</document>

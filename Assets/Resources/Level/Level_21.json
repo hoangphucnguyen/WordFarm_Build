@@ -1,0 +1,31 @@
+{
+  "level": "21",
+  "preview": "rmat",
+  "words": [
+    {
+      "word": "tram",
+      "length": 4
+    },
+    {
+      "word": "mat",
+      "length": 3
+    },
+    {
+      "word": "tar",
+      "length": 3
+    },
+    
+    {
+      "word": "arm",
+      "length": 3
+    },
+    {
+      "word": "rat",
+      "length": 3
+    },
+     {
+      "word": "ram",
+      "length": 3
+    }   
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "level": "101",
+  "preview":"locdu",
+  "words": [
+    {
+      "word": "cloud",
+      "length": 5
+    },
+    {
+      "word": "cold",
+      "length": 4
+    },
+    {
+      "word": "could",
+      "length": 5
+    },
+    {
+      "word": "loud",
+      "length": 4
+    },
+    {
+      "word": "old",
+      "length": 3
+    },    
+    {
+      "word": "do",
+      "length": 2
+    }
+  ]
+}

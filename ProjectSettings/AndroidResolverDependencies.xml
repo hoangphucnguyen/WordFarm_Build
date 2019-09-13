@@ -1,0 +1,73 @@
+<dependencies>
+  <packages>
+    <package>com.android.support:appcompat-v7:25.3.1</package>
+    <package>com.android.support:cardview-v7:25.3.1</package>
+    <package>com.android.support:customtabs:25.3.1</package>
+    <package>com.android.support:support-v4:25.3.1</package>
+    <package>com.google.android.gms:play-services-ads:18.0.0</package>
+    <package>com.google.android.gms:play-services-ads:9.+</package>
+  </packages>
+  <files>
+    <file>Assets/Plugins/Android/animated-vector-drawable-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/annotation-1.0.0.jar</file>
+    <file>Assets/Plugins/Android/appcompat-v7-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/asynclayoutinflater-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/browser-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/cardview-v7-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/collection-1.0.0.jar</file>
+    <file>Assets/Plugins/Android/coordinatorlayout-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/core-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/core-common-2.0.0.jar</file>
+    <file>Assets/Plugins/Android/core-runtime-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/cursoradapter-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/customtabs-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/customview-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/documentfile-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/drawerlayout-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/fragment-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/interpolator-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/legacy-support-core-ui-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/legacy-support-core-utils-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/lifecycle-common-2.0.0.jar</file>
+    <file>Assets/Plugins/Android/lifecycle-livedata-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/lifecycle-livedata-core-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/lifecycle-runtime-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/lifecycle-viewmodel-2.0.0.aar</file>
+    <file>Assets/Plugins/Android/loader-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/localbroadcastmanager-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/play-services-ads-18.0.0.aar</file>
+    <file>Assets/Plugins/Android/play-services-ads-base-18.0.0.aar</file>
+    <file>Assets/Plugins/Android/play-services-ads-identifier-17.0.0.aar</file>
+    <file>Assets/Plugins/Android/play-services-ads-lite-18.0.0</file>
+    <file>Assets/Plugins/Android/play-services-basement-17.0.0.aar</file>
+    <file>Assets/Plugins/Android/play-services-gass-18.0.0.aar</file>
+    <file>Assets/Plugins/Android/play-services-measurement-base-17.0.0.aar</file>
+    <file>Assets/Plugins/Android/play-services-measurement-sdk-api-17.0.0.aar</file>
+    <file>Assets/Plugins/Android/print-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/slidingpanelayout-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/support-annotations-25.3.1.jar</file>
+    <file>Assets/Plugins/Android/support-compat-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/support-core-ui-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/support-core-utils-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/support-fragment-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/support-media-compat-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/support-v4-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/support-vector-drawable-25.3.1.aar</file>
+    <file>Assets/Plugins/Android/swiperefreshlayout-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/versionedparcelable-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/viewpager-1.0.0.aar</file>
+  </files>
+  <settings>
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
+    <setting name="bundleId" value="com.wordfarm" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="False" />
+    <setting name="gradleTemplateEnabled" value="False" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="packageDir" value="Assets\Plugins\Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useJetifier" value="False" />
+  </settings>
+</dependencies>

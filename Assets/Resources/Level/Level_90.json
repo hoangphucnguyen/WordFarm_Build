@@ -1,0 +1,38 @@
+{
+  "level": "90",
+  "preview":"ahdes",
+  "words": [
+    {
+      "word": "shade",
+      "length": 5
+    },
+    {
+      "word": "head",
+      "length": 4
+    },
+    {
+      "word": "shed",
+      "length": 4
+    },
+    {
+      "word": "had",
+      "length": 3
+    },  
+    {
+      "word": "sad",
+      "length": 3
+    },   
+    {
+      "word": "sea",
+      "length": 3
+    }, 
+    {
+      "word": "she",
+      "length": 3
+    }, 
+    {
+      "word": "has",
+      "length": 3
+    }
+  ]
+}

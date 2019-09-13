@@ -1,0 +1,42 @@
+{
+  "level": "75",
+  "preview":"amthc",
+  "words": [
+    {
+      "word": "match",
+      "length": 5
+    },
+    {
+      "word": "chat",
+      "length": 4
+    },
+    {
+      "word": "math",
+      "length": 4
+    },
+    {
+      "word": "act",
+      "length": 3
+    },
+    {
+      "word": "cat",
+      "length": 3
+    },
+    {
+      "word": "ham",
+      "length": 3
+    },
+    {
+      "word": "hat",
+      "length": 3
+    },
+    {
+      "word": "mat",
+      "length": 3
+    },
+    {
+      "word": "at",
+      "length": 2
+    }   
+  ]
+}

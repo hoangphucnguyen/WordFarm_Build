@@ -1,0 +1,44 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: UI.png (512 x 512)
+# $TexturePacker:SmartUpdate:3ad494f1a61afa7e0e4047b706a4b28f:a6c3304267645b47a895cb6fd7c85105:64d56465927d50bb5400e4c66dc46a97$
+#
+
+ButtonImagesMediumArrow;330;286;51;34;0.5;0.5
+ButtonImagesMediumCancel;384;400;38;38;0.5;0.5
+ButtonImagesMediumFacebook;484;396;25;45;0.5;0.5
+ButtonImagesMediumHome;333;400;49;38;0.5;0.5
+ButtonImagesMediumLike;434;252;46;45;0.5;0.5
+ButtonImagesMediumOk;295;250;43;34;0.5;0.5
+ButtonImagesMediumPause;79;398;31;40;0.5;0.5
+ButtonImagesMediumPlay;2;396;31;42;0.5;0.5
+ButtonImagesMediumReload;428;394;54;47;0.5;0.5
+ButtonImagesMediumSettings;112;399;40;39;0.5;0.5
+Frame;2;369;23;23;0.5;0.5
+IconCoinLarge;428;443;66;67;0.5075757575757576;0.4925373134328358
+IconCoinSmall;475;333;34;34;0.5147058823529411;0.4852941176470589
+IconEnergyBig;35;374;42;64;0.5119047619047619;0.4921875
+IconEnergySmall;475;299;21;32;0.5;0.5
+IconLock;154;383;44;55;0.4772727272727273;0.49090909090909096
+IconLockBig;2;129;91;113;0.5054945054945055;0.4911504424778761
+Panel;2;244;124;123;0.5;0.5
+RoundButtonMediumBlue;2;24;102;103;0.5;0.49514563106796117
+RoundButtonMediumGreen;95;139;102;103;0.5;0.49514563106796117
+RoundButtonMediumRed;128;264;102;103;0.5;0.49514563106796117
+RoundButtonMediumYellow;106;34;102;103;0.5;0.49514563106796117
+SquareButtonLargeBlue;2;440;140;70;0.5;0.5
+SquareButtonLargeGreen;144;440;140;70;0.5;0.5
+SquareButtonLargeGrey;286;440;140;70;0.5;0.5
+SquareButtonLargeYellow;333;322;140;70;0.5;0.5
+StarActiveBig;199;170;94;92;0.5;0.5
+StarActiveSmall;484;369;25;25;0.5;0.5
+StarInactiveBig;232;295;96;93;0.5052083333333334;0.4946236559139785
+StarInactiveSmall;115;369;29;28;0.5172413793103449;0.4821428571428571
+TitleBar;200;390;131;48;0.5;0.5
+UIScrollBar;383;274;49;46;0.5;0.5
+WhiteGradientRectangle;79;376;16;16;0.5;0.5
+WhiteRectangle;97;376;16;16;0.5;0.5

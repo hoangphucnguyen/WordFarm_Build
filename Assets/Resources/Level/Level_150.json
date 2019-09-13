@@ -1,0 +1,30 @@
+{
+  "level": "150",
+  "preview":"cytha",
+  "words": [
+    {
+      "word": "yacht",
+      "length": 5
+    },
+    {
+      "word": "chat",
+      "length": 4
+    },
+    {
+      "word": "hat",
+      "length": 3
+    },
+    {
+      "word": "hay",
+      "length": 3
+    },    
+    {
+      "word": "at",
+      "length": 2
+    },      
+    {
+      "word": "act",
+      "length": 3
+    }
+  ]
+}
